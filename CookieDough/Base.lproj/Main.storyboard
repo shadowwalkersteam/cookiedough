@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="cYy-3z-hLf">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="cYy-3z-hLf">
     <device id="retina4_0" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -316,7 +316,7 @@
                                         <color key="textColor" name="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HMs-KX-TO8">
+                                    <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HMs-KX-TO8">
                                         <rect key="frame" x="45" y="350" width="285" height="361"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <string key="text">Little  Ones  are  as  sweet  and chunky  as a  ball  of Cookie  Dough  and  we  think they  deserve  only  the  very best!. That  is  why  we  travel the  world  to  bring  them  the finest  and  most  beautiful pieces  that  we can  find!  Our Boutique  offers  clothing,  footwear  and  accessories from  newborn  to  12  years, with  distinctive  style  and unparalleled  service.  At  our Nursery  Consulting  Center, one  of  our  trained  experts will  guide  you  through a wide  selection  of  furniture, decor  items  and  baby  gear. We  bring  you  only  the best of  everything  you  need for baby  and  child.</string>
@@ -343,7 +343,7 @@
                                         <rect key="frame" x="77" y="961" width="220" height="277"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dxw-Hb-ZgR">
+                                    <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dxw-Hb-ZgR">
                                         <rect key="frame" x="45" y="1224" width="285" height="611"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <string key="text">Located  just  above  our boutique,  Cookie  Dough’s Nursery  Consulting  Center (NCC),  is  the  first  of  its kind  in  the  Middle  East. With  the  comprehensive  range  of  products   available,  we  equip  new  parents  with all  the  information  they  need  to  prepare  for  the arrival  of  their  new  baby. From  bottles  and  pacifiers, to  furniture  and  strollers,  everything  is  in  one space. A one-on-one  consultation  can be made  to  create a complete  checklist  trilored  to your  lifestyle  and requirements.  Together  with an  Advisor,  new  parents  will be confident  to  welcome their  baby  to  the  world!Monthly  seminars  and workshops  with  experts  and specialists  in  the  field,  offer parents  an  opportunity  to access  information,  expertise,  guidance,  and support. Information  about our  seminars,  workshops, and  events  can  be  found here. The  NCC  is  open  from Monday  to  Saturday  from 10am  to  7pm.  Appointments with  an  advisor  can  usually be  made  on  the  spot,  but if you  would  like to  book in advance  you  are  welcome  to  contact  us.</string>

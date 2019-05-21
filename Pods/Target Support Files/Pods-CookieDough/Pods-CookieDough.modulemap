@@ -1,0 +1,6 @@
+framework module Pods_CookieDough {
+  umbrella header "Pods-CookieDough-umbrella.h"
+
+  export *
+  module * { export * }
+}

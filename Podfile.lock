@@ -1,0 +1,16 @@
+PODS:
+  - ProgressWebViewController (1.7.0)
+
+DEPENDENCIES:
+  - ProgressWebViewController (~> 1.7.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - ProgressWebViewController
+
+SPEC CHECKSUMS:
+  ProgressWebViewController: 6cc8a49e35a887023df0fc229ad20bc7479daaa8
+
+PODFILE CHECKSUM: 5764a2dd9b2a3b2ac04038f32b5e6440fd421d9e
+
+COCOAPODS: 1.5.3
