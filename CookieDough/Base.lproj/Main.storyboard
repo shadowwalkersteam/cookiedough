@@ -318,7 +318,7 @@
                                         <color key="textColor" name="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HMs-KX-TO8">
+                                    <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HMs-KX-TO8" customClass="KGCopyableLabel" customModule="CookieDough" customModuleProvider="target">
                                         <rect key="frame" x="45" y="322" width="285" height="365.33333333333326"/>
                                         <constraints>
                                             <constraint firstAttribute="height" relation="lessThanOrEqual" constant="471" id="vke-6i-kHr"/>
@@ -348,7 +348,7 @@
                                             <constraint firstAttribute="width" constant="220" id="x9y-fM-FVQ"/>
                                         </constraints>
                                     </imageView>
-                                    <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dxw-Hb-ZgR">
+                                    <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dxw-Hb-ZgR" customClass="KGCopyableLabel" customModule="CookieDough" customModuleProvider="target">
                                         <rect key="frame" x="45" y="1221.3333333333333" width="285" height="629"/>
                                         <constraints>
                                             <constraint firstAttribute="height" relation="lessThanOrEqual" constant="894" id="eH8-XX-hTa"/>
