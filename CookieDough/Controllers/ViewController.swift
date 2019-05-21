@@ -11,7 +11,9 @@ import ProgressWebViewController
 
 class ViewController: UIViewController {
     @IBOutlet weak var webview: UIWebView!
-        
+    
+    @IBOutlet weak var menuBtn: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
@@ -22,6 +24,13 @@ class ViewController: UIViewController {
         let requestObj = URLRequest(url: url! as URL)
         webview.loadRequest(requestObj)
         webview.scrollView.isScrollEnabled = false
+        
+        menuBtn.addTarget(revealViewController(), action: #selector(SWRevealViewController.revealToggle(_:)), for: .touchUpInside)
+        
+        self.revealViewController().rearViewRevealWidth = self.view.frame.width - 70
+        
+        //menuBtn.actions(forTarget: revealViewController(), forControlEvent: .touchUpInside)
+        //menuBtn.action = #selector(SWRevealViewController.revealToggle(_:))
       
     }
     
@@ -57,9 +66,9 @@ class ViewController: UIViewController {
         let url = URL(string: url)
         progressWebViewController.disableZoom = true
         progressWebViewController.navigationItem.title = title
-        progressWebViewController.navigationWay = .browser
-        progressWebViewController.pullToRefresh = true
-        progressWebViewController.toolbarItemTypes = [.back, .forward, .reload, .activity]
+        //progressWebViewController.navigationWay = .browser
+        //progressWebViewController.pullToRefresh = true
+        //progressWebViewController.toolbarItemTypes = [.back, .forward, .reload, .activity]
         progressWebViewController.url = url
         progressWebViewController.headers = ["browser": "in-app browser"]
         progressWebViewController.tintColor = UIColor(named: "colorPrimaryDark")
