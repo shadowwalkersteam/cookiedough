@@ -1,0 +1,21 @@
+/* 
+  Strings.strings
+  CookieDough
+
+  Created by Zohaib on 5/15/19.
+  Copyright © 2019 Zohaib. All rights reserved.
+*/
+
+"app_name" = "CookieDough";
+"title_activity_dashboard" = "Dashboard";
+"nav_header_title" = "info@cookiedoughboutique.com";
+"nav_header_subtitle" = "Address: Maktabi Building, May Ziadeh Street Clemenceau Beirut, Lebanon";
+"action_settings" = "Setting";
+"about_us" = "About Us";
+"location" = "Location";
+"workshop_seminars" = "Events";
+"shop" = "Shop";
+"ncc_checklist" = "NCC Checklist";
+"my_baby_registry" = "My Baby Registry";
+"about_us_msg" = "Little Ones are as sweet and chunky as a ball of Cookie Dough and we think they deserve only the very best!. That is why we travel the world to bring them the finest and most beautiful pieces that we can find! Our Boutique offers clothing, footwear and accessories from newborn to 12 years, with distinctive style and unparalleled service. At our Nursery Consulting Center, one of our trained experts will guide you through a wide selection of furniture, decor items and baby gear. We bring you only the best of everything you need for baby and child.";
+"about_us_ncc" = "Located just above our boutique, Cookie Dough’s Nursery Consulting Center (NCC), is the first of its kind in the Middle East.With the comprehensive range of products available, we equip new parents with all the information they need to prepare for the arrival of their new baby. From bottles and pacifiers, to furniture and strollers, everything is in one space. A one-on-one consultation can be made to create a complete checklist trilored to your lifestyle and requirements. Together with an Advisor, new parents will be confident to welcome their baby to the world!Monthly seminars and workshops with experts and specialists in the field, offer parents an opportunity to access information, expertise, guidance, and support. Information about our seminars, workshops, and events can be found here. The NCC is open from Monday to Saturday from 10am to 7pm. Appointments with an advisor can usually be made on the spot, but if you would like to book in advance you are welcome to contact us.";

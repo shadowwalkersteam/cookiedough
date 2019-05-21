@@ -7,33 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		46B2A5FE2291483A009B50FA /* AboutUsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B2A5FD2291483A009B50FA /* AboutUsController.swift */; };
 		46BDB971228C6799005697E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46BDB970228C6799005697E5 /* AppDelegate.swift */; };
 		46BDB973228C6799005697E5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46BDB972228C6799005697E5 /* ViewController.swift */; };
 		46BDB976228C6799005697E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46BDB974228C6799005697E5 /* Main.storyboard */; };
 		46BDB978228C679A005697E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46BDB977228C679A005697E5 /* Assets.xcassets */; };
 		46BDB97B228C679A005697E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46BDB979228C679A005697E5 /* LaunchScreen.storyboard */; };
-		46BDB986228C679A005697E5 /* CookieDoughTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46BDB985228C679A005697E5 /* CookieDoughTests.swift */; };
-		46BDB991228C679A005697E5 /* CookieDoughUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46BDB990228C679A005697E5 /* CookieDoughUITests.swift */; };
+		46BDB99F228C7F89005697E5 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46BDB99E228C7F89005697E5 /* Colors.xcassets */; };
+		46BDB9A4228C85A4005697E5 /* Strings.strings in Resources */ = {isa = PBXBuildFile; fileRef = 46BDB9A6228C85A4005697E5 /* Strings.strings */; };
+		F6D235901D68CF89C0A4A046 /* Pods_CookieDough.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D830E7041BE6EF0CBE4D66CB /* Pods_CookieDough.framework */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		46BDB982228C679A005697E5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 46BDB965228C6798005697E5 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 46BDB96C228C6798005697E5;
-			remoteInfo = CookieDough;
-		};
-		46BDB98D228C679A005697E5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 46BDB965228C6798005697E5 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 46BDB96C228C6798005697E5;
-			remoteInfo = CookieDough;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		1A01A01E72DD78FD8366B588 /* Pods-CookieDough.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CookieDough.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CookieDough/Pods-CookieDough.debug.xcconfig"; sourceTree = "<group>"; };
+		46B2A5FD2291483A009B50FA /* AboutUsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutUsController.swift; sourceTree = "<group>"; };
 		46BDB96D228C6799005697E5 /* CookieDough.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CookieDough.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		46BDB970228C6799005697E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		46BDB972228C6799005697E5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -41,12 +28,10 @@
 		46BDB977228C679A005697E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		46BDB97A228C679A005697E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		46BDB97C228C679A005697E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		46BDB981228C679A005697E5 /* CookieDoughTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CookieDoughTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		46BDB985228C679A005697E5 /* CookieDoughTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookieDoughTests.swift; sourceTree = "<group>"; };
-		46BDB987228C679A005697E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		46BDB98C228C679A005697E5 /* CookieDoughUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CookieDoughUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		46BDB990228C679A005697E5 /* CookieDoughUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookieDoughUITests.swift; sourceTree = "<group>"; };
-		46BDB992228C679A005697E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46BDB99E228C7F89005697E5 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		46BDB9A5228C85A4005697E5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Strings.strings; sourceTree = "<group>"; };
+		D830E7041BE6EF0CBE4D66CB /* Pods_CookieDough.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CookieDough.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DACF970D8874172CA1A8D414 /* Pods-CookieDough.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CookieDough.release.xcconfig"; path = "Pods/Target Support Files/Pods-CookieDough/Pods-CookieDough.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,33 +39,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		46BDB97E228C679A005697E5 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		46BDB989228C679A005697E5 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				F6D235901D68CF89C0A4A046 /* Pods_CookieDough.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		089C257BB3EE9366B8CE00C1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D830E7041BE6EF0CBE4D66CB /* Pods_CookieDough.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		46BDB964228C6798005697E5 = {
 			isa = PBXGroup;
 			children = (
 				46BDB96F228C6799005697E5 /* CookieDough */,
-				46BDB984228C679A005697E5 /* CookieDoughTests */,
-				46BDB98F228C679A005697E5 /* CookieDoughUITests */,
 				46BDB96E228C6799005697E5 /* Products */,
+				A7246D750C283BADEA92C101 /* Pods */,
+				089C257BB3EE9366B8CE00C1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -88,8 +68,6 @@
 			isa = PBXGroup;
 			children = (
 				46BDB96D228C6799005697E5 /* CookieDough.app */,
-				46BDB981228C679A005697E5 /* CookieDoughTests.xctest */,
-				46BDB98C228C679A005697E5 /* CookieDoughUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -98,31 +76,33 @@
 			isa = PBXGroup;
 			children = (
 				46BDB970228C6799005697E5 /* AppDelegate.swift */,
-				46BDB972228C6799005697E5 /* ViewController.swift */,
+				46C53101228FEF9A00832A59 /* Controllers */,
 				46BDB974228C6799005697E5 /* Main.storyboard */,
 				46BDB977228C679A005697E5 /* Assets.xcassets */,
+				46BDB99E228C7F89005697E5 /* Colors.xcassets */,
 				46BDB979228C679A005697E5 /* LaunchScreen.storyboard */,
 				46BDB97C228C679A005697E5 /* Info.plist */,
+				46BDB9A6228C85A4005697E5 /* Strings.strings */,
 			);
 			path = CookieDough;
 			sourceTree = "<group>";
 		};
-		46BDB984228C679A005697E5 /* CookieDoughTests */ = {
+		46C53101228FEF9A00832A59 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				46BDB985228C679A005697E5 /* CookieDoughTests.swift */,
-				46BDB987228C679A005697E5 /* Info.plist */,
+				46BDB972228C6799005697E5 /* ViewController.swift */,
+				46B2A5FD2291483A009B50FA /* AboutUsController.swift */,
 			);
-			path = CookieDoughTests;
+			path = Controllers;
 			sourceTree = "<group>";
 		};
-		46BDB98F228C679A005697E5 /* CookieDoughUITests */ = {
+		A7246D750C283BADEA92C101 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				46BDB990228C679A005697E5 /* CookieDoughUITests.swift */,
-				46BDB992228C679A005697E5 /* Info.plist */,
+				1A01A01E72DD78FD8366B588 /* Pods-CookieDough.debug.xcconfig */,
+				DACF970D8874172CA1A8D414 /* Pods-CookieDough.release.xcconfig */,
 			);
-			path = CookieDoughUITests;
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -132,9 +112,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 46BDB995228C679A005697E5 /* Build configuration list for PBXNativeTarget "CookieDough" */;
 			buildPhases = (
+				15BC946E393808E139EE8CF2 /* [CP] Check Pods Manifest.lock */,
 				46BDB969228C6798005697E5 /* Sources */,
 				46BDB96A228C6798005697E5 /* Frameworks */,
 				46BDB96B228C6798005697E5 /* Resources */,
+				B6CC619F017D47D85818B39A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -144,42 +126,6 @@
 			productName = CookieDough;
 			productReference = 46BDB96D228C6799005697E5 /* CookieDough.app */;
 			productType = "com.apple.product-type.application";
-		};
-		46BDB980228C679A005697E5 /* CookieDoughTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 46BDB998228C679A005697E5 /* Build configuration list for PBXNativeTarget "CookieDoughTests" */;
-			buildPhases = (
-				46BDB97D228C679A005697E5 /* Sources */,
-				46BDB97E228C679A005697E5 /* Frameworks */,
-				46BDB97F228C679A005697E5 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				46BDB983228C679A005697E5 /* PBXTargetDependency */,
-			);
-			name = CookieDoughTests;
-			productName = CookieDoughTests;
-			productReference = 46BDB981228C679A005697E5 /* CookieDoughTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		46BDB98B228C679A005697E5 /* CookieDoughUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 46BDB99B228C679A005697E5 /* Build configuration list for PBXNativeTarget "CookieDoughUITests" */;
-			buildPhases = (
-				46BDB988228C679A005697E5 /* Sources */,
-				46BDB989228C679A005697E5 /* Frameworks */,
-				46BDB98A228C679A005697E5 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				46BDB98E228C679A005697E5 /* PBXTargetDependency */,
-			);
-			name = CookieDoughUITests;
-			productName = CookieDoughUITests;
-			productReference = 46BDB98C228C679A005697E5 /* CookieDoughUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -193,14 +139,6 @@
 				TargetAttributes = {
 					46BDB96C228C6798005697E5 = {
 						CreatedOnToolsVersion = 10.2;
-					};
-					46BDB980228C679A005697E5 = {
-						CreatedOnToolsVersion = 10.2;
-						TestTargetID = 46BDB96C228C6798005697E5;
-					};
-					46BDB98B228C679A005697E5 = {
-						CreatedOnToolsVersion = 10.2;
-						TestTargetID = 46BDB96C228C6798005697E5;
 					};
 				};
 			};
@@ -218,8 +156,6 @@
 			projectRoot = "";
 			targets = (
 				46BDB96C228C6798005697E5 /* CookieDough */,
-				46BDB980228C679A005697E5 /* CookieDoughTests */,
-				46BDB98B228C679A005697E5 /* CookieDoughUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -230,26 +166,53 @@
 			buildActionMask = 2147483647;
 			files = (
 				46BDB97B228C679A005697E5 /* LaunchScreen.storyboard in Resources */,
+				46BDB99F228C7F89005697E5 /* Colors.xcassets in Resources */,
 				46BDB978228C679A005697E5 /* Assets.xcassets in Resources */,
+				46BDB9A4228C85A4005697E5 /* Strings.strings in Resources */,
 				46BDB976228C6799005697E5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		46BDB97F228C679A005697E5 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		46BDB98A228C679A005697E5 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		15BC946E393808E139EE8CF2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CookieDough-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B6CC619F017D47D85818B39A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CookieDough/Pods-CookieDough-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ProgressWebViewController/ProgressWebViewController.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ProgressWebViewController.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CookieDough/Pods-CookieDough-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		46BDB969228C6798005697E5 /* Sources */ = {
@@ -257,40 +220,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				46BDB973228C6799005697E5 /* ViewController.swift in Sources */,
+				46B2A5FE2291483A009B50FA /* AboutUsController.swift in Sources */,
 				46BDB971228C6799005697E5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		46BDB97D228C679A005697E5 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				46BDB986228C679A005697E5 /* CookieDoughTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		46BDB988228C679A005697E5 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				46BDB991228C679A005697E5 /* CookieDoughUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		46BDB983228C679A005697E5 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 46BDB96C228C6798005697E5 /* CookieDough */;
-			targetProxy = 46BDB982228C679A005697E5 /* PBXContainerItemProxy */;
-		};
-		46BDB98E228C679A005697E5 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 46BDB96C228C6798005697E5 /* CookieDough */;
-			targetProxy = 46BDB98D228C679A005697E5 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		46BDB974228C6799005697E5 /* Main.storyboard */ = {
@@ -309,6 +244,14 @@
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
+		46BDB9A6228C85A4005697E5 /* Strings.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				46BDB9A5228C85A4005697E5 /* en */,
+			);
+			name = Strings.strings;
+			sourceTree = "<group>";
+		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -316,6 +259,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -377,6 +321,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -430,119 +375,45 @@
 		};
 		46BDB996228C679A005697E5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A01A01E72DD78FD8366B588 /* Pods-CookieDough.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 7353K9VXY9;
+				DEVELOPMENT_TEAM = KEMUQ54C3G;
 				INFOPLIST_FILE = CookieDough/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.techno.CookieDough;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Phonecheck.FaceIDRnD1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		46BDB997228C679A005697E5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DACF970D8874172CA1A8D414 /* Pods-CookieDough.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 7353K9VXY9;
+				DEVELOPMENT_TEAM = KEMUQ54C3G;
 				INFOPLIST_FILE = CookieDough/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.techno.CookieDough;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Phonecheck.FaceIDRnD1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		46BDB999228C679A005697E5 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 7353K9VXY9;
-				INFOPLIST_FILE = CookieDoughTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.techno.CookieDoughTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CookieDough.app/CookieDough";
-			};
-			name = Debug;
-		};
-		46BDB99A228C679A005697E5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 7353K9VXY9;
-				INFOPLIST_FILE = CookieDoughTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.techno.CookieDoughTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CookieDough.app/CookieDough";
-			};
-			name = Release;
-		};
-		46BDB99C228C679A005697E5 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 7353K9VXY9;
-				INFOPLIST_FILE = CookieDoughUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.techno.CookieDoughUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = CookieDough;
-			};
-			name = Debug;
-		};
-		46BDB99D228C679A005697E5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 7353K9VXY9;
-				INFOPLIST_FILE = CookieDoughUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.techno.CookieDoughUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = CookieDough;
 			};
 			name = Release;
 		};
@@ -563,24 +434,6 @@
 			buildConfigurations = (
 				46BDB996228C679A005697E5 /* Debug */,
 				46BDB997228C679A005697E5 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		46BDB998228C679A005697E5 /* Build configuration list for PBXNativeTarget "CookieDoughTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				46BDB999228C679A005697E5 /* Debug */,
-				46BDB99A228C679A005697E5 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		46BDB99B228C679A005697E5 /* Build configuration list for PBXNativeTarget "CookieDoughUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				46BDB99C228C679A005697E5 /* Debug */,
-				46BDB99D228C679A005697E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
