@@ -7,225 +7,224 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		10061F5F33EA9A93D99051B33BE25EE7 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDD6BF66E18A3ECD93AE10A1D4238303 /* Media.xcassets */; };
-		35A9E012DF5661801190005B3B7C522B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		5379BFDDDA8EB0E45E4AC48ECF1E3773 /* Pods-CookieDough-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 416EB2C726EA1EA6AE0006E19CC6CBE7 /* Pods-CookieDough-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5386C048166748C3690C491BA1946815 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA10515FFF2CA22C96419DF6369B1ACA /* Enums.swift */; };
-		58A039594CF453E25764F02F1E6DF990 /* ProgressWebViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E12B24258C5C7DFDF0F00819C589B6B1 /* ProgressWebViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A8B38A5695BE1FB7C64530AB7ACC817B /* ProgressWebViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D835A7D6EBE5CCA697EE0C8762FA3227 /* ProgressWebViewController-dummy.m */; };
-		D7552E300A0977DB7A18A8DF93808231 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		F5DC317730F0A05788D9732089128392 /* Pods-CookieDough-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ED69EEFAF707A4D2B0157B83F779D6E6 /* Pods-CookieDough-dummy.m */; };
-		FB6DB0F620901BBD6A263E6593DDAAAF /* ProgressWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6550588B436F4A051164ED9B26B740AC /* ProgressWebViewController.swift */; };
+		0BDF37DEC558FB017C87E7D97A7C55EA /* ProgressWebViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B8AC2B3B038BB812BE55AF0B55350D7F /* ProgressWebViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		12EAC14F70A7D986939AA4A6D8E3A489 /* Pods-CookieDough-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 06DA8B4593AD59B87F05E90A1E6DCE34 /* Pods-CookieDough-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		16E22F95843DE10CE6E35E90E38CFFC7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		78783AE0F73780316946780B48043308 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B4E7A3C09C8E913FDD2608E4E03E2A4 /* Media.xcassets */; };
+		86D2A6F7E27268681F1939F2D7FCC29B /* ProgressWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A8389504730EB44B415B03E675EC64 /* ProgressWebViewController.swift */; };
+		AA6BBAD22F909F19074F33CEBFDDE1AC /* Pods-CookieDough-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 43B2AD2C980397CDE279FA588964E1E0 /* Pods-CookieDough-dummy.m */; };
+		BD1C773C3C4D749D7775F2B2BE8C11D3 /* ProgressWebViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BBE8312BDC1741B3EA720135CC232795 /* ProgressWebViewController-dummy.m */; };
+		CC9E6133B244DEE0674F4295D9931E34 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		F60C36DAED8D84141BFE04666329CE22 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = F972A25D7853584F26761EEE6FAB1885 /* Enums.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		EF505F90F1C1130CD673C09B96C93919 /* PBXContainerItemProxy */ = {
+		0DFAE5F7BCB62751AF6BF617227E6737 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 46015AFF7673EF8810FA417ABD774BE2;
+			remoteGlobalIDString = FF9AC3C6CCB5C2241D09210ABCBB8C9D;
 			remoteInfo = ProgressWebViewController;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0A457F0FD5A38920D5356ED46F67246F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1A739D17843C620E692881E155C6CFF3 /* ProgressWebViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ProgressWebViewController-prefix.pch"; sourceTree = "<group>"; };
-		1D6FC72433A0434A9AC9A53BC1D6EA10 /* Pods-CookieDough-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CookieDough-acknowledgements.markdown"; sourceTree = "<group>"; };
-		2705885274C7BC80F36B6E8A23F7F92F /* Pods-CookieDough-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CookieDough-resources.sh"; sourceTree = "<group>"; };
-		31857B7A5107853303FACF0A47E18A83 /* Pods-CookieDough.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CookieDough.release.xcconfig"; sourceTree = "<group>"; };
-		416EB2C726EA1EA6AE0006E19CC6CBE7 /* Pods-CookieDough-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CookieDough-umbrella.h"; sourceTree = "<group>"; };
-		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		5D377FEE450ABBA6F4AF00E166C593E8 /* Pods-CookieDough.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CookieDough.modulemap"; sourceTree = "<group>"; };
-		6550588B436F4A051164ED9B26B740AC /* ProgressWebViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ProgressWebViewController.swift; path = ProgressWebViewController/ProgressWebViewController.swift; sourceTree = "<group>"; };
-		79B305CB6E74A559B32560CF100321FC /* Pods-CookieDough-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CookieDough-frameworks.sh"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9D5BD04D19FDB96E3AB608281A3031E2 /* Pods-CookieDough.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CookieDough.debug.xcconfig"; sourceTree = "<group>"; };
-		A1F3ED035BE90991238A23464CA9A0FA /* ProgressWebViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ProgressWebViewController.xcconfig; sourceTree = "<group>"; };
-		B4FF3DEE355D52BA130A9D519BA51B6A /* ProgressWebViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ProgressWebViewController.modulemap; sourceTree = "<group>"; };
-		BF3C0FBCD70CEA3088A12ECB3A4F96EF /* Pods_CookieDough.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CookieDough.framework; path = "Pods-CookieDough.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C54DE087015C293D9B9CA97C1E2320AD /* Pods-CookieDough-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CookieDough-acknowledgements.plist"; sourceTree = "<group>"; };
-		C7415C4177C603A9E34A86335D68F8FA /* ProgressWebViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ProgressWebViewController.framework; path = ProgressWebViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D835A7D6EBE5CCA697EE0C8762FA3227 /* ProgressWebViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ProgressWebViewController-dummy.m"; sourceTree = "<group>"; };
-		DA3CD7781F910616E30533971212F7BB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DDD6BF66E18A3ECD93AE10A1D4238303 /* Media.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Media.xcassets; path = ProgressWebViewController/Media.xcassets; sourceTree = "<group>"; };
-		E12B24258C5C7DFDF0F00819C589B6B1 /* ProgressWebViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ProgressWebViewController-umbrella.h"; sourceTree = "<group>"; };
-		EA10515FFF2CA22C96419DF6369B1ACA /* Enums.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Enums.swift; path = ProgressWebViewController/Enums.swift; sourceTree = "<group>"; };
-		ED69EEFAF707A4D2B0157B83F779D6E6 /* Pods-CookieDough-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CookieDough-dummy.m"; sourceTree = "<group>"; };
+		06DA8B4593AD59B87F05E90A1E6DCE34 /* Pods-CookieDough-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CookieDough-umbrella.h"; sourceTree = "<group>"; };
+		200D127239BCD63EBA9627D255577206 /* Pods-CookieDough.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CookieDough.release.xcconfig"; sourceTree = "<group>"; };
+		2EBA83843A570709FDF7C9FB3F1EE276 /* Pods-CookieDough-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CookieDough-acknowledgements.plist"; sourceTree = "<group>"; };
+		39B763D35AE998E6043E610794F690CB /* Pods-CookieDough-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CookieDough-Info.plist"; sourceTree = "<group>"; };
+		3A9033B8AC940CEFEBC038D2629653F2 /* Pods-CookieDough.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CookieDough.debug.xcconfig"; sourceTree = "<group>"; };
+		43B2AD2C980397CDE279FA588964E1E0 /* Pods-CookieDough-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CookieDough-dummy.m"; sourceTree = "<group>"; };
+		47B7B85DE28C4B7B5B2ACCD69375F007 /* ProgressWebViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ProgressWebViewController-prefix.pch"; sourceTree = "<group>"; };
+		48E27F4974EC1290D8B2C937F46375BB /* Pods-CookieDough-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CookieDough-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4E1D1E83E79E48906B051FB0911EB30B /* Pods_CookieDough.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CookieDough.framework; path = "Pods-CookieDough.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B4E7A3C09C8E913FDD2608E4E03E2A4 /* Media.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Media.xcassets; path = ProgressWebViewController/Media.xcassets; sourceTree = "<group>"; };
+		997FBD0DE7C0ED3A59323D56882512FF /* ProgressWebViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ProgressWebViewController.xcconfig; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B8AC2B3B038BB812BE55AF0B55350D7F /* ProgressWebViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ProgressWebViewController-umbrella.h"; sourceTree = "<group>"; };
+		BB033E9F54E46C524F2B140D369E8DC3 /* ProgressWebViewController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ProgressWebViewController-Info.plist"; sourceTree = "<group>"; };
+		BBE8312BDC1741B3EA720135CC232795 /* ProgressWebViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ProgressWebViewController-dummy.m"; sourceTree = "<group>"; };
+		C0A8389504730EB44B415B03E675EC64 /* ProgressWebViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ProgressWebViewController.swift; path = ProgressWebViewController/ProgressWebViewController.swift; sourceTree = "<group>"; };
+		CA82D4A951AF6896EE1098B087573300 /* Pods-CookieDough.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CookieDough.modulemap"; sourceTree = "<group>"; };
+		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		E0A25C8308FC2A0937EB26F083697DA7 /* ProgressWebViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ProgressWebViewController.modulemap; sourceTree = "<group>"; };
+		F1D6028D685941E9786A6986611F4717 /* Pods-CookieDough-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CookieDough-frameworks.sh"; sourceTree = "<group>"; };
+		F3DE13AA8391F7D9D31A3353D509CC3E /* ProgressWebViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ProgressWebViewController.framework; path = ProgressWebViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F972A25D7853584F26761EEE6FAB1885 /* Enums.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Enums.swift; path = ProgressWebViewController/Enums.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		6DE198C93D9E21A5759D41C2251C5DB8 /* Frameworks */ = {
+		B1C13A9443422CA844D0C6CE3727A85A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				35A9E012DF5661801190005B3B7C522B /* Foundation.framework in Frameworks */,
+				16E22F95843DE10CE6E35E90E38CFFC7 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7BD4C4933FB73E290C16ECE072F7AAC0 /* Frameworks */ = {
+		DC853EEE445CAF7C8ED2E667E53BF411 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D7552E300A0977DB7A18A8DF93808231 /* Foundation.framework in Frameworks */,
+				CC9E6133B244DEE0674F4295D9931E34 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0A6663677577DE618E026F876A5A28D4 /* Pods */ = {
+		2DE4C98A174022DC70426FEEB7BF0784 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9D98E980B4C8A0341E32818F4611A7B7 /* ProgressWebViewController */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		0DB8756632E2355581AD669FF5165AA3 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				BF3C0FBCD70CEA3088A12ECB3A4F96EF /* Pods_CookieDough.framework */,
-				C7415C4177C603A9E34A86335D68F8FA /* ProgressWebViewController.framework */,
+				4E1D1E83E79E48906B051FB0911EB30B /* Pods_CookieDough.framework */,
+				F3DE13AA8391F7D9D31A3353D509CC3E /* ProgressWebViewController.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		19B05B650E9F447994085E7662DA1CDF /* Resources */ = {
+		667E94929606E0DB6D301D6AE3566BD8 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				DDD6BF66E18A3ECD93AE10A1D4238303 /* Media.xcassets */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		2E992130AAD5787D7DD280A05FADA664 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				F63C1BF5AE2BE7DD44BD9D12AC800FC7 /* Pods-CookieDough */,
+				6838D304B839289516035367FA101F37 /* Pods-CookieDough */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+		6838D304B839289516035367FA101F37 /* Pods-CookieDough */ = {
 			isa = PBXGroup;
 			children = (
-				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		7DB346D0F39D3F0E887471402A8071AB = {
-			isa = PBXGroup;
-			children = (
-				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				0A6663677577DE618E026F876A5A28D4 /* Pods */,
-				0DB8756632E2355581AD669FF5165AA3 /* Products */,
-				2E992130AAD5787D7DD280A05FADA664 /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		9D98E980B4C8A0341E32818F4611A7B7 /* ProgressWebViewController */ = {
-			isa = PBXGroup;
-			children = (
-				EA10515FFF2CA22C96419DF6369B1ACA /* Enums.swift */,
-				6550588B436F4A051164ED9B26B740AC /* ProgressWebViewController.swift */,
-				19B05B650E9F447994085E7662DA1CDF /* Resources */,
-				C286CCB87D660DE99D4270995F401D27 /* Support Files */,
-			);
-			name = ProgressWebViewController;
-			path = ProgressWebViewController;
-			sourceTree = "<group>";
-		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				5E0D919E635D23B70123790B8308F8EF /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		C286CCB87D660DE99D4270995F401D27 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				DA3CD7781F910616E30533971212F7BB /* Info.plist */,
-				B4FF3DEE355D52BA130A9D519BA51B6A /* ProgressWebViewController.modulemap */,
-				A1F3ED035BE90991238A23464CA9A0FA /* ProgressWebViewController.xcconfig */,
-				D835A7D6EBE5CCA697EE0C8762FA3227 /* ProgressWebViewController-dummy.m */,
-				1A739D17843C620E692881E155C6CFF3 /* ProgressWebViewController-prefix.pch */,
-				E12B24258C5C7DFDF0F00819C589B6B1 /* ProgressWebViewController-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/ProgressWebViewController";
-			sourceTree = "<group>";
-		};
-		F63C1BF5AE2BE7DD44BD9D12AC800FC7 /* Pods-CookieDough */ = {
-			isa = PBXGroup;
-			children = (
-				0A457F0FD5A38920D5356ED46F67246F /* Info.plist */,
-				5D377FEE450ABBA6F4AF00E166C593E8 /* Pods-CookieDough.modulemap */,
-				1D6FC72433A0434A9AC9A53BC1D6EA10 /* Pods-CookieDough-acknowledgements.markdown */,
-				C54DE087015C293D9B9CA97C1E2320AD /* Pods-CookieDough-acknowledgements.plist */,
-				ED69EEFAF707A4D2B0157B83F779D6E6 /* Pods-CookieDough-dummy.m */,
-				79B305CB6E74A559B32560CF100321FC /* Pods-CookieDough-frameworks.sh */,
-				2705885274C7BC80F36B6E8A23F7F92F /* Pods-CookieDough-resources.sh */,
-				416EB2C726EA1EA6AE0006E19CC6CBE7 /* Pods-CookieDough-umbrella.h */,
-				9D5BD04D19FDB96E3AB608281A3031E2 /* Pods-CookieDough.debug.xcconfig */,
-				31857B7A5107853303FACF0A47E18A83 /* Pods-CookieDough.release.xcconfig */,
+				CA82D4A951AF6896EE1098B087573300 /* Pods-CookieDough.modulemap */,
+				48E27F4974EC1290D8B2C937F46375BB /* Pods-CookieDough-acknowledgements.markdown */,
+				2EBA83843A570709FDF7C9FB3F1EE276 /* Pods-CookieDough-acknowledgements.plist */,
+				43B2AD2C980397CDE279FA588964E1E0 /* Pods-CookieDough-dummy.m */,
+				F1D6028D685941E9786A6986611F4717 /* Pods-CookieDough-frameworks.sh */,
+				39B763D35AE998E6043E610794F690CB /* Pods-CookieDough-Info.plist */,
+				06DA8B4593AD59B87F05E90A1E6DCE34 /* Pods-CookieDough-umbrella.h */,
+				3A9033B8AC940CEFEBC038D2629653F2 /* Pods-CookieDough.debug.xcconfig */,
+				200D127239BCD63EBA9627D255577206 /* Pods-CookieDough.release.xcconfig */,
 			);
 			name = "Pods-CookieDough";
 			path = "Target Support Files/Pods-CookieDough";
 			sourceTree = "<group>";
 		};
+		7BC065EB048C1917308D94151FD2A11E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E0A25C8308FC2A0937EB26F083697DA7 /* ProgressWebViewController.modulemap */,
+				997FBD0DE7C0ED3A59323D56882512FF /* ProgressWebViewController.xcconfig */,
+				BBE8312BDC1741B3EA720135CC232795 /* ProgressWebViewController-dummy.m */,
+				BB033E9F54E46C524F2B140D369E8DC3 /* ProgressWebViewController-Info.plist */,
+				47B7B85DE28C4B7B5B2ACCD69375F007 /* ProgressWebViewController-prefix.pch */,
+				B8AC2B3B038BB812BE55AF0B55350D7F /* ProgressWebViewController-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ProgressWebViewController";
+			sourceTree = "<group>";
+		};
+		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		9ED049147F8D488D9CFEDCF8637D234D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DC43F18373140F4D2E349335787A10FC /* ProgressWebViewController */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A6D00CF2644E3AD6CBF2848BDE2EBE20 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6B4E7A3C09C8E913FDD2608E4E03E2A4 /* Media.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				9ED049147F8D488D9CFEDCF8637D234D /* Pods */,
+				2DE4C98A174022DC70426FEEB7BF0784 /* Products */,
+				667E94929606E0DB6D301D6AE3566BD8 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DC43F18373140F4D2E349335787A10FC /* ProgressWebViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F972A25D7853584F26761EEE6FAB1885 /* Enums.swift */,
+				C0A8389504730EB44B415B03E675EC64 /* ProgressWebViewController.swift */,
+				A6D00CF2644E3AD6CBF2848BDE2EBE20 /* Resources */,
+				7BC065EB048C1917308D94151FD2A11E /* Support Files */,
+			);
+			name = ProgressWebViewController;
+			path = ProgressWebViewController;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		16924E380A9FAEC549639D9D242E1F3D /* Headers */ = {
+		7A74777D2041460943E6ECD9FCF209D8 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5379BFDDDA8EB0E45E4AC48ECF1E3773 /* Pods-CookieDough-umbrella.h in Headers */,
+				12EAC14F70A7D986939AA4A6D8E3A489 /* Pods-CookieDough-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7A77FEE1BE1BDAA598EAFA18A294A9F7 /* Headers */ = {
+		FA2A28ED6772B64C0B28FC71C76DFB47 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				58A039594CF453E25764F02F1E6DF990 /* ProgressWebViewController-umbrella.h in Headers */,
+				0BDF37DEC558FB017C87E7D97A7C55EA /* ProgressWebViewController-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		401D3A9A35C5DC83B1A812316AD2E074 /* Pods-CookieDough */ = {
+		2AF1F14AAC34C12DA97D4B847141E140 /* Pods-CookieDough */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D42AC2F94EED4AA1D8F63339F6DF0944 /* Build configuration list for PBXNativeTarget "Pods-CookieDough" */;
+			buildConfigurationList = 84D8E36E8A0578CD5EE84F02ADD56610 /* Build configuration list for PBXNativeTarget "Pods-CookieDough" */;
 			buildPhases = (
-				CEEE095521200C5931A24B618577CA4C /* Sources */,
-				7BD4C4933FB73E290C16ECE072F7AAC0 /* Frameworks */,
-				16924E380A9FAEC549639D9D242E1F3D /* Headers */,
+				7A74777D2041460943E6ECD9FCF209D8 /* Headers */,
+				415C0F733D72E7C770539EFE242C1D97 /* Sources */,
+				DC853EEE445CAF7C8ED2E667E53BF411 /* Frameworks */,
+				BA799933B505B44A71DEBCC4F3486BCD /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				A878816CBFD67A8A970C0A184F9E3960 /* PBXTargetDependency */,
+				8255EEE42CA49FBE180355E8A0EC1E14 /* PBXTargetDependency */,
 			);
 			name = "Pods-CookieDough";
 			productName = "Pods-CookieDough";
-			productReference = BF3C0FBCD70CEA3088A12ECB3A4F96EF /* Pods_CookieDough.framework */;
+			productReference = 4E1D1E83E79E48906B051FB0911EB30B /* Pods_CookieDough.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		46015AFF7673EF8810FA417ABD774BE2 /* ProgressWebViewController */ = {
+		FF9AC3C6CCB5C2241D09210ABCBB8C9D /* ProgressWebViewController */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 31EF3B3537E5DA7CA560009862BB870F /* Build configuration list for PBXNativeTarget "ProgressWebViewController" */;
+			buildConfigurationList = A4709F85AA43E8C0455AC9BE52F8A9AF /* Build configuration list for PBXNativeTarget "ProgressWebViewController" */;
 			buildPhases = (
-				EA567FBA63A90348005904CD560A4680 /* Sources */,
-				6DE198C93D9E21A5759D41C2251C5DB8 /* Frameworks */,
-				085D1723A5DF1C4DB3D5265155DA9122 /* Resources */,
-				7A77FEE1BE1BDAA598EAFA18A294A9F7 /* Headers */,
+				FA2A28ED6772B64C0B28FC71C76DFB47 /* Headers */,
+				370D08F053CB1877010F998BB0C951BD /* Sources */,
+				B1C13A9443422CA844D0C6CE3727A85A /* Frameworks */,
+				E8FF1AC4946F409C0470D566C734A168 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -233,79 +232,86 @@
 			);
 			name = ProgressWebViewController;
 			productName = ProgressWebViewController;
-			productReference = C7415C4177C603A9E34A86335D68F8FA /* ProgressWebViewController.framework */;
+			productReference = F3DE13AA8391F7D9D31A3353D509CC3E /* ProgressWebViewController.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 0930;
 			};
-			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
-			compatibilityVersion = "Xcode 3.2";
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 0DB8756632E2355581AD669FF5165AA3 /* Products */;
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 2DE4C98A174022DC70426FEEB7BF0784 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				401D3A9A35C5DC83B1A812316AD2E074 /* Pods-CookieDough */,
-				46015AFF7673EF8810FA417ABD774BE2 /* ProgressWebViewController */,
+				2AF1F14AAC34C12DA97D4B847141E140 /* Pods-CookieDough */,
+				FF9AC3C6CCB5C2241D09210ABCBB8C9D /* ProgressWebViewController */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		085D1723A5DF1C4DB3D5265155DA9122 /* Resources */ = {
+		BA799933B505B44A71DEBCC4F3486BCD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				10061F5F33EA9A93D99051B33BE25EE7 /* Media.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8FF1AC4946F409C0470D566C734A168 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78783AE0F73780316946780B48043308 /* Media.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		CEEE095521200C5931A24B618577CA4C /* Sources */ = {
+		370D08F053CB1877010F998BB0C951BD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F5DC317730F0A05788D9732089128392 /* Pods-CookieDough-dummy.m in Sources */,
+				F60C36DAED8D84141BFE04666329CE22 /* Enums.swift in Sources */,
+				BD1C773C3C4D749D7775F2B2BE8C11D3 /* ProgressWebViewController-dummy.m in Sources */,
+				86D2A6F7E27268681F1939F2D7FCC29B /* ProgressWebViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EA567FBA63A90348005904CD560A4680 /* Sources */ = {
+		415C0F733D72E7C770539EFE242C1D97 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5386C048166748C3690C491BA1946815 /* Enums.swift in Sources */,
-				A8B38A5695BE1FB7C64530AB7ACC817B /* ProgressWebViewController-dummy.m in Sources */,
-				FB6DB0F620901BBD6A263E6593DDAAAF /* ProgressWebViewController.swift in Sources */,
+				AA6BBAD22F909F19074F33CEBFDDE1AC /* Pods-CookieDough-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		A878816CBFD67A8A970C0A184F9E3960 /* PBXTargetDependency */ = {
+		8255EEE42CA49FBE180355E8A0EC1E14 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ProgressWebViewController;
-			target = 46015AFF7673EF8810FA417ABD774BE2 /* ProgressWebViewController */;
-			targetProxy = EF505F90F1C1130CD673C09B96C93919 /* PBXContainerItemProxy */;
+			target = FF9AC3C6CCB5C2241D09210ABCBB8C9D /* ProgressWebViewController */;
+			targetProxy = 0DFAE5F7BCB62751AF6BF617227E6737 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		08638A96A528B1EC32DE62F8A728389D /* Release */ = {
+		4CE281642D6EE9FAB113046B4B6328A0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -337,8 +343,6 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -357,86 +361,17 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		496B61CDF901A66B9441627FCCCF7450 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A1F3ED035BE90991238A23464CA9A0FA /* ProgressWebViewController.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ProgressWebViewController/ProgressWebViewController-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ProgressWebViewController/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/ProgressWebViewController/ProgressWebViewController.modulemap";
-				PRODUCT_MODULE_NAME = ProgressWebViewController;
-				PRODUCT_NAME = ProgressWebViewController;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		8B3DEDB4A766F70E598506768B300997 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A1F3ED035BE90991238A23464CA9A0FA /* ProgressWebViewController.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ProgressWebViewController/ProgressWebViewController-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ProgressWebViewController/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/ProgressWebViewController/ProgressWebViewController.modulemap";
-				PRODUCT_MODULE_NAME = ProgressWebViewController;
-				PRODUCT_NAME = ProgressWebViewController;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		9DAE5233986C01ADB6E67169C53A3FD2 /* Debug */ = {
+		6DFA1578582149B7E24AD55CBA30F07A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -468,8 +403,6 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -490,21 +423,22 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		9FCBBEB460D02BCBFF64B3901D256447 /* Debug */ = {
+		7904507F14FF2EFFFA05EADA8B03F6A2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9D5BD04D19FDB96E3AB608281A3031E2 /* Pods-CookieDough.debug.xcconfig */;
+			baseConfigurationReference = 997FBD0DE7C0ED3A59323D56882512FF /* ProgressWebViewController.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -514,64 +448,22 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-CookieDough/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/ProgressWebViewController/ProgressWebViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ProgressWebViewController/ProgressWebViewController-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-CookieDough/Pods-CookieDough.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				MODULEMAP_FILE = "Target Support Files/ProgressWebViewController/ProgressWebViewController.modulemap";
+				PRODUCT_MODULE_NAME = ProgressWebViewController;
+				PRODUCT_NAME = ProgressWebViewController;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		BD3EFF1F6393AC816634AF0272C52829 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 31857B7A5107853303FACF0A47E18A83 /* Pods-CookieDough.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-CookieDough/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-CookieDough/Pods-CookieDough.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -579,37 +471,149 @@
 			};
 			name = Release;
 		};
+		8F1CCAC9C11F01585A0FBF31EE5C6133 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 997FBD0DE7C0ED3A59323D56882512FF /* ProgressWebViewController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ProgressWebViewController/ProgressWebViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ProgressWebViewController/ProgressWebViewController-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ProgressWebViewController/ProgressWebViewController.modulemap";
+				PRODUCT_MODULE_NAME = ProgressWebViewController;
+				PRODUCT_NAME = ProgressWebViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		974889CC197DB99115D0F423AE5EC979 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 200D127239BCD63EBA9627D255577206 /* Pods-CookieDough.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CookieDough/Pods-CookieDough-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CookieDough/Pods-CookieDough.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B42C604B6EFD18419FDFBBC4FC700049 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A9033B8AC940CEFEBC038D2629653F2 /* Pods-CookieDough.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CookieDough/Pods-CookieDough-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CookieDough/Pods-CookieDough.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9DAE5233986C01ADB6E67169C53A3FD2 /* Debug */,
-				08638A96A528B1EC32DE62F8A728389D /* Release */,
+				6DFA1578582149B7E24AD55CBA30F07A /* Debug */,
+				4CE281642D6EE9FAB113046B4B6328A0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		31EF3B3537E5DA7CA560009862BB870F /* Build configuration list for PBXNativeTarget "ProgressWebViewController" */ = {
+		84D8E36E8A0578CD5EE84F02ADD56610 /* Build configuration list for PBXNativeTarget "Pods-CookieDough" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				496B61CDF901A66B9441627FCCCF7450 /* Debug */,
-				8B3DEDB4A766F70E598506768B300997 /* Release */,
+				B42C604B6EFD18419FDFBBC4FC700049 /* Debug */,
+				974889CC197DB99115D0F423AE5EC979 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D42AC2F94EED4AA1D8F63339F6DF0944 /* Build configuration list for PBXNativeTarget "Pods-CookieDough" */ = {
+		A4709F85AA43E8C0455AC9BE52F8A9AF /* Build configuration list for PBXNativeTarget "ProgressWebViewController" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9FCBBEB460D02BCBFF64B3901D256447 /* Debug */,
-				BD3EFF1F6393AC816634AF0272C52829 /* Release */,
+				8F1CCAC9C11F01585A0FBF31EE5C6133 /* Debug */,
+				7904507F14FF2EFFFA05EADA8B03F6A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 }

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="cYy-3z-hLf">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="cYy-3z-hLf">
     <device id="retina5_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -265,6 +265,9 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" largeTitles="YES" id="SVH-o7-deB">
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
+                    <toolbar key="toolbar" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="ntc-LB-CZ1">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </toolbar>
                     <connections>
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="yX3-wY-y43"/>
                     </connections>
@@ -294,19 +297,19 @@
             <objects>
                 <viewController id="rjE-Uv-Lb4" customClass="AboutUsController" customModule="CookieDough" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Y8t-uU-B10">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="2450"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="2200"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bkg1" translatesAutoresizingMaskIntoConstraints="NO" id="Yps-5b-MLe">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="80"/>
                             </imageView>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1yg-P7-YA6">
-                                <rect key="frame" x="0.0" y="80" width="375" height="2370"/>
+                                <rect key="frame" x="0.0" y="80" width="375" height="2120"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bkg1" translatesAutoresizingMaskIntoConstraints="NO" id="W07-oN-rXD">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="2350"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="2150"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="2350" id="nMX-rM-eDq"/>
+                                            <constraint firstAttribute="height" constant="2150" id="nMX-rM-eDq"/>
                                         </constraints>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="About Cookie Dough Boutique" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iSO-V9-GlQ">
@@ -316,43 +319,43 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HMs-KX-TO8">
-                                        <rect key="frame" x="45" y="322" width="285" height="471"/>
+                                        <rect key="frame" x="45" y="322" width="285" height="365.33333333333326"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="471" id="vke-6i-kHr"/>
+                                            <constraint firstAttribute="height" relation="lessThanOrEqual" constant="471" id="vke-6i-kHr"/>
                                         </constraints>
                                         <string key="text">Little  Ones  are  as  sweet  and chunky  as a  ball  of Cookie  Dough  and  we  think they  deserve  only  the  very best!. That  is  why  we  travel the  world  to  bring  them  the finest  and  most  beautiful pieces  that  we can  find!  Our Boutique  offers  clothing,  footwear  and  accessories from  newborn  to  12  years, with  distinctive  style  and unparalleled  service.  At  our Nursery  Consulting  Center, one  of  our  trained  experts will  guide  you  through a wide  selection  of  furniture, decor  items  and  baby  gear. We  bring  you  only  the best of  everything  you  need for baby  and  child.</string>
-                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" name="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="NURSERY CONSULTING CENTER" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gkq-EE-4JT">
-                                        <rect key="frame" x="10" y="986" width="355" height="24"/>
+                                        <rect key="frame" x="10" y="934.33333333333337" width="355" height="24"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                         <color key="textColor" name="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="video" translatesAutoresizingMaskIntoConstraints="NO" id="m5k-SS-2Vf">
-                                        <rect key="frame" x="79" y="801" width="217" height="130"/>
+                                        <rect key="frame" x="79" y="699.33333333333337" width="217" height="130"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="217" id="JvK-Uq-MfZ"/>
                                             <constraint firstAttribute="height" constant="130" id="xTo-61-Sxj"/>
                                         </constraints>
                                     </imageView>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="aboutus_second" translatesAutoresizingMaskIntoConstraints="NO" id="76H-ff-r5a">
-                                        <rect key="frame" x="77.666666666666686" y="986" width="220" height="277"/>
+                                        <rect key="frame" x="77.666666666666686" y="934.33333333333348" width="220" height="277"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="277" id="VDg-GH-A90"/>
                                             <constraint firstAttribute="width" constant="220" id="x9y-fM-FVQ"/>
                                         </constraints>
                                     </imageView>
                                     <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dxw-Hb-ZgR">
-                                        <rect key="frame" x="45" y="1263" width="285" height="894"/>
+                                        <rect key="frame" x="45" y="1221.3333333333333" width="285" height="629"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="894" id="eH8-XX-hTa"/>
+                                            <constraint firstAttribute="height" relation="lessThanOrEqual" constant="894" id="eH8-XX-hTa"/>
                                         </constraints>
                                         <string key="text">Located  just  above  our boutique,  Cookie  Dough’s Nursery  Consulting  Center (NCC),  is  the  first  of  its kind  in  the  Middle  East. With  the  comprehensive  range  of  products   available,  we  equip  new  parents  with all  the  information  they  need  to  prepare  for  the arrival  of  their  new  baby. From  bottles  and  pacifiers, to  furniture  and  strollers,  everything  is  in  one space. A one-on-one  consultation  can be made  to  create a complete  checklist  trilored  to your  lifestyle  and requirements.  Together  with an  Advisor,  new  parents  will be confident  to  welcome their  baby  to  the  world!Monthly  seminars  and workshops  with  experts  and specialists  in  the  field,  offer parents  an  opportunity  to access  information,  expertise,  guidance,  and support. Information  about our  seminars,  workshops, and  events  can  be  found here. The  NCC  is  open  from Monday  to  Saturday  from 10am  to  7pm.  Appointments with  an  advisor  can  usually be  made  on  the  spot,  but if you  would  like to  book in advance  you  are  welcome  to  contact  us.</string>
-                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" name="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="about_us_top" translatesAutoresizingMaskIntoConstraints="NO" id="Heb-Nj-oh8">
@@ -363,7 +366,7 @@
                                         </constraints>
                                     </imageView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rj4-kS-YB3">
-                                        <rect key="frame" x="98" y="2162" width="179" height="40"/>
+                                        <rect key="frame" x="98" y="1900.3333333333333" width="179" height="40"/>
                                         <color key="backgroundColor" red="0.80619412660598755" green="0.55015629529953003" blue="0.58738821744918823" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="40" id="3AI-Ka-d3d"/>
@@ -378,7 +381,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jSu-hP-SH0">
-                                        <rect key="frame" x="65" y="2214" width="245" height="40"/>
+                                        <rect key="frame" x="65" y="1952.3333333333333" width="245" height="40"/>
                                         <color key="backgroundColor" red="0.80619412660000001" green="0.55015629529999999" blue="0.58738821740000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="245" id="qc6-Tr-Be2"/>
@@ -393,7 +396,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ho3-3H-QY2">
-                                        <rect key="frame" x="40.666666666666657" y="2265" width="294" height="40"/>
+                                        <rect key="frame" x="40.666666666666657" y="2003.3333333333335" width="294" height="40"/>
                                         <color key="backgroundColor" red="0.80619412660000001" green="0.55015629529999999" blue="0.58738821740000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="40" id="73e-Do-CYT"/>
@@ -418,9 +421,9 @@
                                     <constraint firstAttribute="trailing" secondItem="Dxw-Hb-ZgR" secondAttribute="trailing" constant="45" id="Bvl-8B-6yv"/>
                                     <constraint firstAttribute="trailing" secondItem="HMs-KX-TO8" secondAttribute="trailing" constant="45" id="CUt-jr-rgR"/>
                                     <constraint firstItem="jSu-hP-SH0" firstAttribute="centerX" secondItem="1yg-P7-YA6" secondAttribute="centerX" id="Cm7-oQ-d43"/>
-                                    <constraint firstItem="m5k-SS-2Vf" firstAttribute="top" secondItem="HMs-KX-TO8" secondAttribute="bottom" constant="8" id="DfM-Hu-VKl"/>
-                                    <constraint firstItem="rj4-kS-YB3" firstAttribute="top" secondItem="Dxw-Hb-ZgR" secondAttribute="bottom" constant="5" id="Fph-EA-niw"/>
-                                    <constraint firstItem="Dxw-Hb-ZgR" firstAttribute="top" secondItem="76H-ff-r5a" secondAttribute="bottom" id="GmQ-OW-kGX"/>
+                                    <constraint firstItem="m5k-SS-2Vf" firstAttribute="top" secondItem="HMs-KX-TO8" secondAttribute="bottom" constant="12" id="DfM-Hu-VKl"/>
+                                    <constraint firstItem="rj4-kS-YB3" firstAttribute="top" secondItem="Dxw-Hb-ZgR" secondAttribute="bottom" constant="50" id="Fph-EA-niw"/>
+                                    <constraint firstItem="Dxw-Hb-ZgR" firstAttribute="top" secondItem="76H-ff-r5a" secondAttribute="bottom" constant="10" id="GmQ-OW-kGX"/>
                                     <constraint firstItem="gkq-EE-4JT" firstAttribute="leading" secondItem="1yg-P7-YA6" secondAttribute="leading" constant="10" id="Qi2-tv-NRO"/>
                                     <constraint firstItem="W07-oN-rXD" firstAttribute="top" secondItem="1yg-P7-YA6" secondAttribute="top" id="SW6-N1-fp1"/>
                                     <constraint firstAttribute="trailing" secondItem="gkq-EE-4JT" secondAttribute="trailing" constant="10" id="XYe-Ld-dgq"/>
@@ -433,9 +436,9 @@
                                     <constraint firstItem="m5k-SS-2Vf" firstAttribute="centerX" secondItem="1yg-P7-YA6" secondAttribute="centerX" id="fvo-RM-7OH"/>
                                     <constraint firstItem="Heb-Nj-oh8" firstAttribute="top" secondItem="iSO-V9-GlQ" secondAttribute="bottom" constant="10" id="hca-pA-qO6"/>
                                     <constraint firstItem="rj4-kS-YB3" firstAttribute="centerX" secondItem="1yg-P7-YA6" secondAttribute="centerX" id="ina-KW-MAa"/>
-                                    <constraint firstItem="gkq-EE-4JT" firstAttribute="top" secondItem="m5k-SS-2Vf" secondAttribute="bottom" constant="55" id="ipt-Bk-sxh"/>
+                                    <constraint firstItem="gkq-EE-4JT" firstAttribute="top" secondItem="m5k-SS-2Vf" secondAttribute="bottom" constant="105" id="ipt-Bk-sxh"/>
                                     <constraint firstItem="Heb-Nj-oh8" firstAttribute="centerX" secondItem="1yg-P7-YA6" secondAttribute="centerX" id="kxO-57-NM2"/>
-                                    <constraint firstItem="76H-ff-r5a" firstAttribute="top" secondItem="m5k-SS-2Vf" secondAttribute="bottom" constant="55" id="rLU-ff-5UQ"/>
+                                    <constraint firstItem="76H-ff-r5a" firstAttribute="top" secondItem="m5k-SS-2Vf" secondAttribute="bottom" constant="105" id="rLU-ff-5UQ"/>
                                     <constraint firstItem="Dxw-Hb-ZgR" firstAttribute="centerX" secondItem="1yg-P7-YA6" secondAttribute="centerX" id="rtu-DB-xbV"/>
                                 </constraints>
                             </scrollView>
@@ -458,7 +461,7 @@
                                 </connections>
                             </button>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translucent="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zoj-aO-ShC">
-                                <rect key="frame" x="0.0" y="2400" width="375" height="50"/>
+                                <rect key="frame" x="0.0" y="2150" width="375" height="50"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="H23-Zh-w0g"/>
@@ -511,14 +514,17 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Ggn-DN-NdK"/>
                     </view>
-                    <size key="freeformSize" width="375" height="2450"/>
+                    <size key="freeformSize" width="375" height="2200"/>
                     <connections>
                         <outlet property="aboutUsDetail" destination="HMs-KX-TO8" id="0mB-Fa-UaE"/>
+                        <outlet property="bkg1" destination="W07-oN-rXD" id="O3a-g3-NA2"/>
                         <outlet property="cookieDoughTitle" destination="iSO-V9-GlQ" id="ySC-pQ-iHq"/>
+                        <outlet property="dayAndNight" destination="kAT-jw-bnq" id="zgt-hi-xvt"/>
                         <outlet property="imageView" destination="m5k-SS-2Vf" id="FqC-hb-E8I"/>
                         <outlet property="mainToolBar" destination="Zoj-aO-ShC" id="hxC-9g-hgN"/>
                         <outlet property="nccDetail" destination="Dxw-Hb-ZgR" id="OSh-LG-5E3"/>
-                        <outlet property="nccTitle" destination="76H-ff-r5a" id="gfT-fB-c5V"/>
+                        <outlet property="nccTitle" destination="gkq-EE-4JT" id="u5u-AU-5uo"/>
+                        <outlet property="scrollView" destination="1yg-P7-YA6" id="RGX-HZ-tzp"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8N7-w7-D2K" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -531,16 +537,16 @@
         <image name="aboutus" width="300" height="191"/>
         <image name="aboutus_second" width="322" height="351"/>
         <image name="baby_registry" width="300" height="191"/>
-        <image name="bbbb" width="150.2608642578125" height="150.2608642578125"/>
-        <image name="bkg1" width="216" height="384.48001098632812"/>
+        <image name="bbbb" width="48" height="48"/>
+        <image name="bkg1" width="900" height="1602"/>
         <image name="copypaste" width="30" height="30"/>
         <image name="day" width="30" height="30"/>
         <image name="fontenlarge" width="30" height="30"/>
         <image name="header_logo" width="203" height="136"/>
         <image name="ic_search" width="40" height="40"/>
-        <image name="ios_nav_menu" width="153.19148254394531" height="153.19148254394531"/>
+        <image name="ios_nav_menu" width="100" height="100"/>
         <image name="location" width="300" height="191"/>
-        <image name="ncc_checklist" width="72" height="72"/>
+        <image name="ncc_checklist" width="300" height="300"/>
         <image name="shop" width="300" height="191"/>
         <image name="video" width="348" height="209"/>
         <image name="workshop_seminars" width="300" height="191"/>
