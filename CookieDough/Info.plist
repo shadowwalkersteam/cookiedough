@@ -21,6 +21,7 @@
 	<key>LSApplicationQueriesSchemes</key>
 	<array>
 		<string>googlechromes</string>
+		<string>youtube</string>
 		<string>comgooglemaps</string>
 	</array>
 	<key>LSRequiresIPhoneOS</key>

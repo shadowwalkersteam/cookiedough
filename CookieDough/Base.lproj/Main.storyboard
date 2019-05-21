@@ -359,6 +359,9 @@
                                         <state key="normal" title="DOWNLOAD THE CHECKLIST">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
+                                        <connections>
+                                            <action selector="nccCheckList:" destination="rjE-Uv-Lb4" eventType="touchUpInside" id="1PU-ql-50a"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jSu-hP-SH0">
                                         <rect key="frame" x="65" y="1900" width="245" height="40"/>
@@ -368,6 +371,9 @@
                                         <state key="normal" title="PARENT WORKSHOPS AND SEMINARS">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
+                                        <connections>
+                                            <action selector="workshops:" destination="rjE-Uv-Lb4" eventType="touchUpInside" id="kYW-ud-4Ui"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ho3-3H-QY2">
                                         <rect key="frame" x="40" y="1951" width="294" height="40"/>
@@ -377,6 +383,9 @@
                                         <state key="normal" title="BABY LOG BOOK - DESIGNED BY ROSE DAHDAH">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
+                                        <connections>
+                                            <action selector="babyLogs:" destination="rjE-Uv-Lb4" eventType="touchUpInside" id="DZA-gg-6bp"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <constraints>
@@ -415,14 +424,23 @@
                                     <barButtonItem width="23" style="plain" systemItem="fixedSpace" id="8dX-TJ-BCW"/>
                                     <barButtonItem image="fontenlarge" id="ufI-lo-g9C">
                                         <color key="tintColor" red="0.58081901069999997" green="0.088427625600000004" blue="0.31863921880000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <action selector="fontsResize:" destination="rjE-Uv-Lb4" id="M2J-I7-bmQ"/>
+                                        </connections>
                                     </barButtonItem>
                                     <barButtonItem width="42" style="plain" systemItem="fixedSpace" id="UXm-Lp-KOg"/>
                                     <barButtonItem image="copypaste" id="PQz-sn-gec">
                                         <color key="tintColor" red="0.58081901069999997" green="0.088427625600000004" blue="0.31863921880000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <action selector="copyText:" destination="rjE-Uv-Lb4" id="omw-nR-20F"/>
+                                        </connections>
                                     </barButtonItem>
                                     <barButtonItem width="42" style="plain" systemItem="fixedSpace" id="2bj-fO-CiE"/>
                                     <barButtonItem image="day" id="kAT-jw-bnq">
                                         <color key="tintColor" red="0.58081901069999997" green="0.088427625600000004" blue="0.31863921880000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <action selector="dayAndNight:" destination="rjE-Uv-Lb4" id="k8k-dd-N9t"/>
+                                        </connections>
                                     </barButtonItem>
                                 </items>
                                 <color key="barTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -451,7 +469,12 @@
                     </view>
                     <size key="freeformSize" width="375" height="2150"/>
                     <connections>
+                        <outlet property="aboutUsDetail" destination="HMs-KX-TO8" id="0mB-Fa-UaE"/>
+                        <outlet property="cookieDoughTitle" destination="iSO-V9-GlQ" id="ySC-pQ-iHq"/>
+                        <outlet property="imageView" destination="m5k-SS-2Vf" id="FqC-hb-E8I"/>
                         <outlet property="mainToolBar" destination="Zoj-aO-ShC" id="hxC-9g-hgN"/>
+                        <outlet property="nccDetail" destination="Dxw-Hb-ZgR" id="OSh-LG-5E3"/>
+                        <outlet property="nccTitle" destination="76H-ff-r5a" id="gfT-fB-c5V"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8N7-w7-D2K" userLabel="First Responder" sceneMemberID="firstResponder"/>
