@@ -394,14 +394,14 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = B74UQ7A9LZ;
+				DEVELOPMENT_TEAM = 2A5P8Q5876;
 				INFOPLIST_FILE = CookieDough/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.Phonecheck.FaceIDRnD1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Phonecheck.FaceIDRnD;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "CookieDough/CookieDough-Bridging-Header.h";
@@ -419,14 +419,14 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = B74UQ7A9LZ;
+				DEVELOPMENT_TEAM = 2A5P8Q5876;
 				INFOPLIST_FILE = CookieDough/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.Phonecheck.FaceIDRnD1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Phonecheck.FaceIDRnD;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "CookieDough/CookieDough-Bridging-Header.h";
