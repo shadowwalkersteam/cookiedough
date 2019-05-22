@@ -46,12 +46,6 @@ class ViewController: UIViewController, UIWebViewDelegate {
     
     override func viewWillAppear(_ animated: Bool) {
         self.navigationController?.setToolbarHidden(true, animated: false)
-        
-        if let nav = self.navigationController {
-            nav.navigationItem.setRightBarButtonItems(nil, animated: true)
-            nav.navigationBar.topItem?.rightBarButtonItems = []
-            nav.navigationItem.rightBarButtonItem = nil;
-        }
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
