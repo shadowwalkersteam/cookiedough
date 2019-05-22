@@ -295,7 +295,7 @@
         <!--About Us Controller-->
         <scene sceneID="UXe-Hi-7XD">
             <objects>
-                <viewController id="rjE-Uv-Lb4" customClass="AboutUsController" customModule="CookieDough" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="rjE-Uv-Lb4" customClass="AboutUsController" customModule="CookieDough" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Y8t-uU-B10">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="2200"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

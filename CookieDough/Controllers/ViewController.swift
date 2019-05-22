@@ -17,14 +17,17 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
         self.navigationController?.setNavigationBarHidden(true, animated: false)
         self.navigationController?.navigationBar.topItem?.title = " "
-        self.navigationController?.setToolbarHidden(true, animated: false)
+
         let url = URL(string: "https://cookiedoughboutique.com/mobileslider/")
         let requestObj = URLRequest(url: url! as URL)
         webview.loadRequest(requestObj)
         webview.scrollView.isScrollEnabled = false
       
     }
-    
+    override func viewWillAppear(_ animated: Bool) {
+        self.navigationController?.setToolbarHidden(true, animated: false)
+        self.navigationController?.setNavigationBarHidden(true, animated: false)
+    }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         guard let identifier = segue.identifier else {
