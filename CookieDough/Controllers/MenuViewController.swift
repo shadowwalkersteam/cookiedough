@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import ProgressWebViewController
 
 class MenuViewController: UIViewController, UITableViewDelegate,UITableViewDataSource {
 
@@ -110,5 +111,9 @@ class MenuViewController: UIViewController, UITableViewDelegate,UITableViewDataS
         
         return cell!
     }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
 
+    }
+    
 }
