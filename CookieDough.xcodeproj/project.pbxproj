@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		412101292294524B0065FE9B /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 412101282294524B0065FE9B /* SWRevealViewController.m */; };
+		4121012B22945C7F0065FE9B /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4121012A22945C7F0065FE9B /* MenuViewController.swift */; };
 		46B2A5FE2291483A009B50FA /* AboutUsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B2A5FD2291483A009B50FA /* AboutUsController.swift */; };
 		46BDB971228C6799005697E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46BDB970228C6799005697E5 /* AppDelegate.swift */; };
 		46BDB973228C6799005697E5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46BDB972228C6799005697E5 /* ViewController.swift */; };
@@ -20,6 +22,10 @@
 
 /* Begin PBXFileReference section */
 		1A01A01E72DD78FD8366B588 /* Pods-CookieDough.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CookieDough.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CookieDough/Pods-CookieDough.debug.xcconfig"; sourceTree = "<group>"; };
+		41210124229452300065FE9B /* CookieDough-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CookieDough-Bridging-Header.h"; sourceTree = "<group>"; };
+		412101272294524B0065FE9B /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		412101282294524B0065FE9B /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		4121012A22945C7F0065FE9B /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		46B2A5FD2291483A009B50FA /* AboutUsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutUsController.swift; sourceTree = "<group>"; };
 		46BDB96D228C6799005697E5 /* CookieDough.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CookieDough.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		46BDB970228C6799005697E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -76,6 +82,8 @@
 			isa = PBXGroup;
 			children = (
 				46BDB970228C6799005697E5 /* AppDelegate.swift */,
+				412101272294524B0065FE9B /* SWRevealViewController.h */,
+				412101282294524B0065FE9B /* SWRevealViewController.m */,
 				46C53101228FEF9A00832A59 /* Controllers */,
 				46BDB974228C6799005697E5 /* Main.storyboard */,
 				46BDB977228C679A005697E5 /* Assets.xcassets */,
@@ -83,6 +91,7 @@
 				46BDB979228C679A005697E5 /* LaunchScreen.storyboard */,
 				46BDB97C228C679A005697E5 /* Info.plist */,
 				46BDB9A6228C85A4005697E5 /* Strings.strings */,
+				41210124229452300065FE9B /* CookieDough-Bridging-Header.h */,
 			);
 			path = CookieDough;
 			sourceTree = "<group>";
@@ -92,6 +101,7 @@
 			children = (
 				46BDB972228C6799005697E5 /* ViewController.swift */,
 				46B2A5FD2291483A009B50FA /* AboutUsController.swift */,
+				4121012A22945C7F0065FE9B /* MenuViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -139,6 +149,7 @@
 				TargetAttributes = {
 					46BDB96C228C6798005697E5 = {
 						CreatedOnToolsVersion = 10.2;
+						LastSwiftMigration = 1010;
 					};
 				};
 			};
@@ -200,7 +211,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-CookieDough/Pods-CookieDough-frameworks.sh",
+				"${SRCROOT}/Pods/Target Support Files/Pods-CookieDough/Pods-CookieDough-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/ProgressWebViewController/ProgressWebViewController.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -209,7 +220,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CookieDough/Pods-CookieDough-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CookieDough/Pods-CookieDough-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -220,8 +231,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				46BDB973228C6799005697E5 /* ViewController.swift in Sources */,
+				4121012B22945C7F0065FE9B /* MenuViewController.swift in Sources */,
 				46B2A5FE2291483A009B50FA /* AboutUsController.swift in Sources */,
 				46BDB971228C6799005697E5 /* AppDelegate.swift in Sources */,
+				412101292294524B0065FE9B /* SWRevealViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -378,18 +391,21 @@
 			baseConfigurationReference = 1A01A01E72DD78FD8366B588 /* Pods-CookieDough.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 2A5P8Q5876;
+				DEVELOPMENT_TEAM = B74UQ7A9LZ;
 				INFOPLIST_FILE = CookieDough/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.Phonecheck.FaceIDRnD;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Phonecheck.FaceIDRnD1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "CookieDough/CookieDough-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -400,18 +416,20 @@
 			baseConfigurationReference = DACF970D8874172CA1A8D414 /* Pods-CookieDough.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 2A5P8Q5876;
+				DEVELOPMENT_TEAM = B74UQ7A9LZ;
 				INFOPLIST_FILE = CookieDough/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.Phonecheck.FaceIDRnD;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Phonecheck.FaceIDRnD1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "CookieDough/CookieDough-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
