@@ -50,7 +50,7 @@ class MenuViewController: UIViewController, UITableViewDelegate,UITableViewDataS
     
     
     func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
-        // if it's the 3rd section, return a view with desired content for the section header
+
         if section == 2 {
             let v = UIView(frame: CGRect(x: 0, y:0, width: tableView.frame.width, height: 30))
             //v.backgroundColor = .yellow
@@ -60,12 +60,11 @@ class MenuViewController: UIViewController, UITableViewDelegate,UITableViewDataS
             v.addSubview(label)
             return v
         }
-        // not the 3rd section, so don't return a view
         return nil
     }
     
     func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
-        // if it's the 3rd section
+        
         if section == 1 {
             return 30
         }else if section == 2 {
@@ -112,7 +111,11 @@ class MenuViewController: UIViewController, UITableViewDelegate,UITableViewDataS
         return cell!
     }
     
+    
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
+        
+    }
 
     }
     

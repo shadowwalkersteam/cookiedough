@@ -46,7 +46,9 @@ class ViewController: UIViewController, UIWebViewDelegate {
     
     override func viewWillAppear(_ animated: Bool) {
         self.navigationController?.setToolbarHidden(true, animated: false)
+        
     }
+    
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         guard let identifier = segue.identifier else {
@@ -83,6 +85,7 @@ class ViewController: UIViewController, UIWebViewDelegate {
         //progressWebViewController.pullToRefresh = true
         progressWebViewController.toolbarItemTypes = [.back, .forward, .reload, .activity]
         progressWebViewController.url = url
+        progressWebViewController.doneBarButtonItemPosition = .none
         progressWebViewController.headers = ["browser": "in-app browser"]
         progressWebViewController.tintColor = UIColor(named: "colorPrimaryDark")
     }
