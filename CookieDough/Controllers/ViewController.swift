@@ -11,8 +11,8 @@ import ProgressWebViewController
 
 class ViewController: UIViewController, UIWebViewDelegate {
     @IBOutlet weak var webview: UIWebView!
-    @IBOutlet weak var indicator: UIActivityIndicatorView!
     @IBOutlet weak var menuBtn: UIButton!
+    @IBOutlet weak var inidicator1: UIActivityIndicatorView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -35,12 +35,12 @@ class ViewController: UIViewController, UIWebViewDelegate {
     }
     
     func webViewDidStartLoad(_ : UIWebView) {
-        indicator.startAnimating()
+        inidicator1.startAnimating()
     }
     
     func webViewDidFinishLoad(_ : UIWebView) {
-        indicator.stopAnimating()
-        indicator.isHidden = true
+        inidicator1.stopAnimating()
+        inidicator1.isHidden = true
     }
     
     
