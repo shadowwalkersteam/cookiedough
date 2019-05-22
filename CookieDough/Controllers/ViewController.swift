@@ -27,7 +27,6 @@ class ViewController: UIViewController {
         
         menuBtn.addTarget(revealViewController(), action: #selector(SWRevealViewController.revealToggle(_:)), for: .touchUpInside)
         
-        self.revealViewController().rearViewRevealWidth = self.view.frame.width - 70
         
         //menuBtn.actions(forTarget: revealViewController(), forControlEvent: .touchUpInside)
         //menuBtn.action = #selector(SWRevealViewController.revealToggle(_:))
