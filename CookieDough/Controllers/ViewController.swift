@@ -9,9 +9,9 @@
 import UIKit
 import ProgressWebViewController
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, UIWebViewDelegate {
     @IBOutlet weak var webview: UIWebView!
-    
+    @IBOutlet weak var indicator: UIActivityIndicatorView!
     @IBOutlet weak var menuBtn: UIButton!
     
     override func viewDidLoad() {
@@ -24,6 +24,7 @@ class ViewController: UIViewController {
         let requestObj = URLRequest(url: url! as URL)
         webview.loadRequest(requestObj)
         webview.scrollView.isScrollEnabled = false
+        self.webview.delegate = self
         
         menuBtn.addTarget(revealViewController(), action: #selector(SWRevealViewController.revealToggle(_:)), for: .touchUpInside)
         
@@ -32,8 +33,25 @@ class ViewController: UIViewController {
         //menuBtn.action = #selector(SWRevealViewController.revealToggle(_:))
       
     }
+    
+    func webViewDidStartLoad(_ : UIWebView) {
+        indicator.startAnimating()
+    }
+    
+    func webViewDidFinishLoad(_ : UIWebView) {
+        indicator.stopAnimating()
+        indicator.isHidden = true
+    }
+    
+    
     override func viewWillAppear(_ animated: Bool) {
         self.navigationController?.setToolbarHidden(true, animated: false)
+        
+        if let nav = self.navigationController {
+            nav.navigationItem.setRightBarButtonItems(nil, animated: true)
+            nav.navigationBar.topItem?.rightBarButtonItems = []
+            nav.navigationItem.rightBarButtonItem = nil;
+        }
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
@@ -69,7 +87,7 @@ class ViewController: UIViewController {
         progressWebViewController.navigationItem.title = title
         //progressWebViewController.navigationWay = .browser
         //progressWebViewController.pullToRefresh = true
-        //progressWebViewController.toolbarItemTypes = [.back, .forward, .reload, .activity]
+        progressWebViewController.toolbarItemTypes = [.back, .forward, .reload, .activity]
         progressWebViewController.url = url
         progressWebViewController.headers = ["browser": "in-app browser"]
         progressWebViewController.tintColor = UIColor(named: "colorPrimaryDark")

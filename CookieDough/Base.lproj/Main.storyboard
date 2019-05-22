@@ -22,6 +22,9 @@
                             <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Gff-AJ-9u4">
                                 <rect key="frame" x="0.0" y="76.999999999999986" width="414" height="176.66666666666663"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <connections>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="lsO-vQ-aKQ"/>
+                                </connections>
                             </webView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bkg1" translatesAutoresizingMaskIntoConstraints="NO" id="XZh-OE-UfJ">
                                 <rect key="frame" x="0.0" y="253.66666666666666" width="414" height="482.33333333333337"/>
@@ -179,6 +182,10 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="header_logo" translatesAutoresizingMaskIntoConstraints="NO" id="m50-f6-21e">
                                 <rect key="frame" x="161.33333333333334" y="16" width="91.333333333333343" height="60"/>
                             </imageView>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="VlY-Nd-2Sj">
+                                <rect key="frame" x="197" y="155" width="20" height="20"/>
+                                <color key="color" name="colorPrimaryDark"/>
+                            </activityIndicatorView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -213,6 +220,7 @@
                             <constraint firstItem="Gff-AJ-9u4" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.24" id="Q4h-UM-oDM"/>
                             <constraint firstItem="isU-hQ-AX7" firstAttribute="top" secondItem="8RS-rF-Dt1" secondAttribute="bottom" constant="8" id="R6w-Ca-4fj"/>
                             <constraint firstItem="yhR-8D-rIP" firstAttribute="top" secondItem="0Ck-Qd-vjk" secondAttribute="top" id="RCy-XN-8jg"/>
+                            <constraint firstItem="XZh-OE-UfJ" firstAttribute="top" secondItem="VlY-Nd-2Sj" secondAttribute="bottom" constant="78.670000000000002" id="Rkw-MZ-Yad"/>
                             <constraint firstItem="m50-f6-21e" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" multiplier="0.8" id="UBl-Su-TSR"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="8RS-rF-Dt1" secondAttribute="trailing" constant="15" id="XuV-dx-Qxs"/>
                             <constraint firstItem="xfn-Uk-wyv" firstAttribute="leading" secondItem="P43-44-DPh" secondAttribute="leading" id="YgI-uz-TbF"/>
@@ -233,12 +241,15 @@
                             <constraint firstItem="0Ck-Qd-vjk" firstAttribute="leading" secondItem="P43-44-DPh" secondAttribute="leading" id="ouz-HC-ra2"/>
                             <constraint firstItem="YRa-gm-PBD" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="pac-BH-wdZ"/>
                             <constraint firstItem="xfn-Uk-wyv" firstAttribute="trailing" secondItem="P43-44-DPh" secondAttribute="trailing" id="rBs-9t-blj"/>
+                            <constraint firstItem="VlY-Nd-2Sj" firstAttribute="top" secondItem="m50-f6-21e" secondAttribute="bottom" constant="79" id="sav-gX-o6h"/>
                             <constraint firstItem="YRa-gm-PBD" firstAttribute="centerY" secondItem="m50-f6-21e" secondAttribute="centerY" id="uRV-bd-mUP"/>
                             <constraint firstItem="Pln-GZ-ZmG" firstAttribute="top" secondItem="bm1-i6-xi8" secondAttribute="bottom" constant="8" id="vdS-CN-iYl"/>
                             <constraint firstItem="XZh-OE-UfJ" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="vkV-RM-9gz"/>
                             <constraint firstItem="aVd-V7-Xkj" firstAttribute="centerX" secondItem="yhR-8D-rIP" secondAttribute="centerX" id="vrM-kV-EO3"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="VlY-Nd-2Sj" secondAttribute="trailing" constant="197" id="wG9-9s-U64"/>
                             <constraint firstItem="Gff-AJ-9u4" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="wV4-is-T0N"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="sUn-Rw-765" secondAttribute="bottom" id="xYt-hL-eCg"/>
+                            <constraint firstItem="VlY-Nd-2Sj" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="197" id="xe3-DL-doS"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
@@ -251,6 +262,7 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
+                        <outlet property="indicator" destination="VlY-Nd-2Sj" id="2Fs-b9-EXz"/>
                         <outlet property="menuBtn" destination="YRa-gm-PBD" id="WfE-hM-FrM"/>
                         <outlet property="webview" destination="Gff-AJ-9u4" id="Cej-9I-RIw"/>
                     </connections>
@@ -264,7 +276,7 @@
             <objects>
                 <navigationController navigationBarHidden="YES" id="cYy-3z-hLf" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" id="DnO-qV-5YD"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" largeTitles="YES" id="SVH-o7-deB">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="SVH-o7-deB">
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <toolbar key="toolbar" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="ntc-LB-CZ1">
@@ -628,28 +640,31 @@
         <image name="aboutus" width="300" height="191"/>
         <image name="aboutus_second" width="322" height="351"/>
         <image name="baby_registry" width="300" height="191"/>
-        <image name="bbbb" width="150.2608642578125" height="150.2608642578125"/>
-        <image name="bkg1" width="216" height="384.48001098632812"/>
+        <image name="bbbb" width="48" height="48"/>
+        <image name="bkg1" width="900" height="1602"/>
         <image name="copypaste" width="30" height="30"/>
         <image name="day" width="30" height="30"/>
         <image name="fontenlarge" width="30" height="30"/>
         <image name="header_logo" width="203" height="136"/>
         <image name="ic_search" width="40" height="40"/>
-        <image name="ios_nav_menu" width="153.19148254394531" height="153.19148254394531"/>
+        <image name="ios_nav_menu" width="100" height="100"/>
         <image name="location" width="300" height="191"/>
-        <image name="ncc_checklist" width="72" height="72"/>
+        <image name="ncc_checklist" width="300" height="300"/>
         <image name="shop" width="300" height="191"/>
         <image name="video" width="348" height="209"/>
         <image name="workshop_seminars" width="300" height="191"/>
         <namedColor name="colorAccent">
             <color red="0.47450980392156861" green="0.43137254901960786" blue="0.42745098039215684" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
+        <namedColor name="colorPrimaryDark">
+            <color red="0.32549019607843138" green="0.15294117647058825" blue="0.35294117647058826" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
         <namedColor name="textColor">
             <color red="0.29803921568627451" green="0.32941176470588235" blue="0.3843137254901961" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="zAO-bJ-m3F"/>
+        <segue reference="tH9-r1-iil"/>
         <segue reference="4i2-Mt-bm6"/>
     </inferredMetricsTieBreakers>
 </document>
