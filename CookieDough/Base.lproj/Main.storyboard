@@ -615,11 +615,28 @@
                     </view>
                     <connections>
                         <outlet property="menutableView" destination="ElM-nA-IFT" id="XyE-bX-RZe"/>
+                        <segue destination="bZ9-rd-4lF" kind="show" id="eJE-Rl-3gB"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="M5m-fb-azJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="942.02898550724649" y="-641.57608695652175"/>
+        </scene>
+        <!--Progress Web View Controller-->
+        <scene sceneID="CGH-08-9eb">
+            <objects>
+                <viewController id="bZ9-rd-4lF" customClass="ProgressWebViewController" customModule="ProgressWebViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="jb2-lq-Sx9">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="GLl-lw-WwG"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="bAw-bG-bbI"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="d43-ST-FMf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1732" y="-964"/>
         </scene>
     </scenes>
     <resources>

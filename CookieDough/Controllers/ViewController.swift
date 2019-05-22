@@ -19,7 +19,7 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
         self.navigationController?.setNavigationBarHidden(true, animated: false)
         self.navigationController?.navigationBar.topItem?.title = " "
-        self.navigationController?.setToolbarHidden(true, animated: false)
+        
         let url = URL(string: "https://cookiedoughboutique.com/mobileslider/")
         let requestObj = URLRequest(url: url! as URL)
         webview.loadRequest(requestObj)
@@ -31,6 +31,11 @@ class ViewController: UIViewController {
         //menuBtn.actions(forTarget: revealViewController(), forControlEvent: .touchUpInside)
         //menuBtn.action = #selector(SWRevealViewController.revealToggle(_:))
       
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        self.navigationController?.setToolbarHidden(true, animated: false)
+        
     }
     
     
@@ -69,6 +74,7 @@ class ViewController: UIViewController {
         //progressWebViewController.pullToRefresh = true
         //progressWebViewController.toolbarItemTypes = [.back, .forward, .reload, .activity]
         progressWebViewController.url = url
+        progressWebViewController.doneBarButtonItemPosition = .none
         progressWebViewController.headers = ["browser": "in-app browser"]
         progressWebViewController.tintColor = UIColor(named: "colorPrimaryDark")
     }
