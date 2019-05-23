@@ -121,6 +121,11 @@ class AboutUsController: UIViewController {
         
     }
     
+    override func viewWillAppear(_ animated: Bool) {
+        self.navigationController?.setToolbarHidden(true, animated: false)
+        self.navigationController?.setNavigationBarHidden(true, animated: false)
+    }
+    
     @IBAction func dayAndNight(_ sender: Any) {
         if (countDate % 2 == 0) {
             dayAndNight.image = UIImage(named: "night")

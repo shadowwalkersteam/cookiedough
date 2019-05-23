@@ -13,6 +13,7 @@ class MenuViewController: UIViewController, UITableViewDelegate,UITableViewDataS
 
     
     @IBOutlet weak var menutableView: UITableView!
+    var itemIndex = 0
     
     
     //var dataArray = ["Notifications", "About Us","Event Planning","NCC"]
@@ -27,7 +28,7 @@ class MenuViewController: UIViewController, UITableViewDelegate,UITableViewDataS
         menutableView.delegate = self
         menutableView.dataSource = self
         
-        
+        self.navigationController?.setNavigationBarHidden(false, animated: false)
         menutableView.tableFooterView = UIView()
         menutableView.separatorStyle = .none
 
@@ -111,10 +112,16 @@ class MenuViewController: UIViewController, UITableViewDelegate,UITableViewDataS
         return cell!
     }
     
+    override func viewWillAppear(_ animated: Bool) {
+        self.navigationController?.setToolbarHidden(false, animated: false)
+        self.navigationController?.setNavigationBarHidden(false, animated: false)
+    }
+    
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-         self.navigationController?.setNavigationBarHidden(false, animated: false)
-         performSegue(withIdentifier: "webview", sender: self)
+        itemIndex = indexPath.row
+        self.revealViewController().revealToggle(animated: true)
+         performSegue(withIdentifier: "web", sender: self)
     }
 
     private func loadURL(progressWebViewController: ProgressWebViewController, url: String, title: String) {
@@ -133,8 +140,23 @@ class MenuViewController: UIViewController, UITableViewDelegate,UITableViewDataS
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let progressWebViewController = segue.destination as? ProgressWebViewController
-            loadURL(progressWebViewController: progressWebViewController! ,url: "https://cookiedoughboutique.com/ncc-parents-workshops-and-seminars/", title: "Events")
+        
+        switch itemIndex {
+        case 1:
+            let storyBoard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+            let newViewController = storyBoard.instantiateViewController(withIdentifier: "aboutus") as! AboutUsController
+            self.present(newViewController, animated: true, completion: nil)
+            break
+            
+        case 2:
+            loadURL(progressWebViewController: progressWebViewController! ,url: "https://cookiedoughboutique.com/event-planning-meeting-request/", title: "Event Planning")
+        
+        case 3:
+            loadURL(progressWebViewController: progressWebViewController! ,url: "https://cookiedoughboutique.com/nursery-consulting-center/", title: "NCC Checklist")
+            
+        default:
+            print("Unknown segue \(itemIndex)")
+        }
     }
-    
 }
     
