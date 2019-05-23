@@ -3,10 +3,15 @@
 
 target 'CookieDough' do
   # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
-  use_frameworks!
+  #use_frameworks!
 
   # Pods for CookieDough
 
-pod 'ProgressWebViewController', '~> 1.7.0'
+pod 'ProgressWebViewController', '~> 1.8'
+pod 'OneSignal', '~> 2.10'
 
+end
+
+target 'OneSignalNotificationServiceExtension' do
+  pod 'OneSignal', '~> 2.10'
 end

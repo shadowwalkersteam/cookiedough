@@ -1,4 +1,4 @@
-framework module ProgressWebViewController {
+module ProgressWebViewController {
   umbrella header "ProgressWebViewController-umbrella.h"
 
   export *

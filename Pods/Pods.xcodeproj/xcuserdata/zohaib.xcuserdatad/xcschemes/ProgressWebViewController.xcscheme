@@ -14,8 +14,8 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "FF9AC3C6CCB5C2241D09210ABCBB8C9D"
-               BuildableName = "ProgressWebViewController.framework"
+               BlueprintIdentifier = "3554254DD7BC71D1297DEF7B73019DBE"
+               BuildableName = "libProgressWebViewController.a"
                BlueprintName = "ProgressWebViewController"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>

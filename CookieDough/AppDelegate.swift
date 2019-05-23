@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import OneSignal
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,6 +17,31 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        let onesignalInitSettings = [kOSSettingsKeyAutoPrompt: false]
+        
+        let notificationReceivedBlock: OSHandleNotificationReceivedBlock = { notification in
+            
+            print("Received Notification: \(String(describing: notification!.payload.title))")
+            print("content_available = \(String(describing: notification!.payload.body))")
+            
+            var dataHandler = NotificationHandler(title: notification!.payload.title, body: notification!.payload.body)
+            
+            
+        }
+        
+        // Replace 'YOUR_APP_ID' with your OneSignal App ID.
+        OneSignal.initWithLaunchOptions(launchOptions,
+                                        appId: "cbddbe60-be6c-46b3-92d6-67ecdecddde0",
+                                        handleNotificationReceived: notificationReceivedBlock, handleNotificationAction: nil,
+                                        settings: onesignalInitSettings)
+        
+        OneSignal.inFocusDisplayType = OSNotificationDisplayType.notification;
+        
+        // Recommend moving the below line to prompt for push after informing the user about
+        //   how your app will use them.
+        OneSignal.promptForPushNotifications(userResponse: { accepted in
+            print("User accepted notifications: \(accepted)")
+        })
         return true
     }
 

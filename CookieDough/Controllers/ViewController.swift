@@ -46,7 +46,6 @@ class ViewController: UIViewController, UIWebViewDelegate {
     
     override func viewWillAppear(_ animated: Bool) {
         self.navigationController?.setToolbarHidden(true, animated: false)
-        
     }
     
     override func viewWillDisappear(_ animated: Bool) {

@@ -14,9 +14,9 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "8897C11FE2712F56C44EC7790E8FDF01"
-               BuildableName = "libPods-CookieDough.a"
-               BlueprintName = "Pods-CookieDough"
+               BlueprintIdentifier = "FAEC05ABF71F3F43027EE756A42919F8"
+               BuildableName = "OneSignal-iOS12.2"
+               BlueprintName = "OneSignal-iOS12.2"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>

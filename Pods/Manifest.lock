@@ -1,16 +1,20 @@
 PODS:
+  - OneSignal (2.10.0)
   - ProgressWebViewController (1.8.2)
 
 DEPENDENCIES:
-  - ProgressWebViewController (~> 1.8.0)
+  - OneSignal (~> 2.10)
+  - ProgressWebViewController (~> 1.8)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
+    - OneSignal
     - ProgressWebViewController
 
 SPEC CHECKSUMS:
+  OneSignal: 0f5ff711d9f25da54885e4ab06ef0abc221a46ef
   ProgressWebViewController: e29ded2c299cbe80f5c3d20b40b01871182ea014
 
-PODFILE CHECKSUM: 51d2e8608782fe1de58890c184e1b3e23d951652
+PODFILE CHECKSUM: 3d46ae2f41e8425ce53c82e469cf54baac1cafb0
 
 COCOAPODS: 1.6.1
