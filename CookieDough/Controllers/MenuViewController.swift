@@ -113,9 +113,28 @@ class MenuViewController: UIViewController, UITableViewDelegate,UITableViewDataS
     
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        
-        
+         self.navigationController?.setNavigationBarHidden(false, animated: false)
+         performSegue(withIdentifier: "webview", sender: self)
     }
 
+    private func loadURL(progressWebViewController: ProgressWebViewController, url: String, title: String) {
+        let url = URL(string: url)
+        progressWebViewController.disableZoom = true
+        progressWebViewController.navigationItem.title = title
+        //progressWebViewController.navigationWay = .browser
+        //progressWebViewController.pullToRefresh = true
+        progressWebViewController.toolbarItemTypes = [.back, .forward, .reload, .activity]
+        progressWebViewController.url = url
+        progressWebViewController.doneBarButtonItemPosition = .none
+        progressWebViewController.headers = ["browser": "in-app browser"]
+        progressWebViewController.tintColor = UIColor(named: "colorPrimaryDark")
+    
     }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let progressWebViewController = segue.destination as? ProgressWebViewController
+            loadURL(progressWebViewController: progressWebViewController! ,url: "https://cookiedoughboutique.com/ncc-parents-workshops-and-seminars/", title: "Events")
+    }
+    
+}
     
