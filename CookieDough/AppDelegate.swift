@@ -24,8 +24,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             print("Received Notification: \(String(describing: notification!.payload.title))")
             print("content_available = \(String(describing: notification!.payload.body))")
             
-            var dataHandler = NotificationHandler(title: notification!.payload.title, body: notification!.payload.body)
+            let dataHandler = NotificationHandler(title: notification!.payload.title, body: notification!.payload.body)
             
+            var dataArray: [NotificationHandler] = []
+            dataArray.append(dataHandler)
+            
+            let notificationData = NSKeyedArchiver.archivedData(withRootObject: dataArray)
+            UserDefaults.standard.set(notificationData, forKey: "notifications")
             
         }
         
