@@ -125,7 +125,12 @@ class MenuViewController: UIViewController, UITableViewDelegate,UITableViewDataS
         
         if indexPath.row == 1 {
             //performSegue(withIdentifier: "about", sender: nil)
-            performSegue(withIdentifier: SWSegueFrontIdentifier, sender: nil)
+            //performSegue(withIdentifier: SWSegueFrontIdentifier, sender: nil)
+    
+            let controller = storyboard?.instantiateViewController(withIdentifier: "aboutus")
+            self.navigationController!.pushViewController(controller!, animated: false)
+        
+            
             
         }
         

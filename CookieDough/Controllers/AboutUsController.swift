@@ -82,6 +82,7 @@ class AboutUsController: UIViewController {
         let tapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(imageTapped(tapGestureRecognizer:)))
         imageView.isUserInteractionEnabled = true
         imageView.addGestureRecognizer(tapGestureRecognizer)
+        
     }
     
     @IBAction func nccCheckList(_ sender: Any) {

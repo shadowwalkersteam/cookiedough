@@ -245,7 +245,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1yg-P7-YA6">
-                                <rect key="frame" x="0.0" y="26" width="375" height="2174"/>
+                                <rect key="frame" x="0.0" y="70" width="375" height="2130"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bkg1" translatesAutoresizingMaskIntoConstraints="NO" id="W07-oN-rXD">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="2150"/>
@@ -530,7 +530,6 @@
                     <connections>
                         <outlet property="menutableView" destination="ElM-nA-IFT" id="XyE-bX-RZe"/>
                         <segue destination="bZ9-rd-4lF" kind="show" identifier="web" id="6Rj-rK-IwU"/>
-                        <segue destination="rjE-Uv-Lb4" kind="custom" identifier="sw_front" customClass="SWRevealViewControllerSeguePushController" id="5OO-eU-efq"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="M5m-fb-azJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -556,6 +555,7 @@
         <!--Navigation Controller-->
         <scene sceneID="rYK-rs-zEN">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="73p-gs-Kfh" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="3jp-cj-gia" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="YQI-J5-CeV"/>
@@ -568,7 +568,6 @@
                         <segue destination="C1W-f9-nW5" kind="relationship" relationship="rootViewController" id="a61-jd-vzL"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="73p-gs-Kfh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="895.6521739130435" y="-626.08695652173913"/>
         </scene>
@@ -617,7 +616,6 @@
         </namedColor>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="5OO-eU-efq"/>
         <segue reference="tH9-r1-iil"/>
     </inferredMetricsTieBreakers>
 </document>
