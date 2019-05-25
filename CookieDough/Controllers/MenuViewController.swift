@@ -28,7 +28,7 @@ class MenuViewController: UIViewController, UITableViewDelegate,UITableViewDataS
         menutableView.delegate = self
         menutableView.dataSource = self
         
-        self.navigationController?.setNavigationBarHidden(false, animated: false)
+        //self.navigationController?.setNavigationBarHidden(false, animated: false)
         menutableView.tableFooterView = UIView()
         menutableView.separatorStyle = .none
 
@@ -113,15 +113,22 @@ class MenuViewController: UIViewController, UITableViewDelegate,UITableViewDataS
     }
     
     override func viewWillAppear(_ animated: Bool) {
-        self.navigationController?.setToolbarHidden(false, animated: false)
-        self.navigationController?.setNavigationBarHidden(false, animated: false)
+//        self.navigationController?.setToolbarHidden(false, animated: false)
+//        self.navigationController?.setNavigationBarHidden(false, animated: false)
     }
     
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         itemIndex = indexPath.row
-        self.revealViewController().revealToggle(animated: true)
-         performSegue(withIdentifier: "web", sender: self)
+//        self.revealViewController().revealToggle(animated: true)
+//         performSegue(withIdentifier: "web", sender: self)
+        
+        if indexPath.row == 1 {
+            //performSegue(withIdentifier: "about", sender: nil)
+            performSegue(withIdentifier: SWSegueFrontIdentifier, sender: nil)
+            
+        }
+        
     }
 
     private func loadURL(progressWebViewController: ProgressWebViewController, url: String, title: String) {
@@ -143,9 +150,11 @@ class MenuViewController: UIViewController, UITableViewDelegate,UITableViewDataS
         
         switch itemIndex {
         case 1:
-            let storyBoard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
-            let newViewController = storyBoard.instantiateViewController(withIdentifier: "aboutus") as! AboutUsController
-            self.present(newViewController, animated: true, completion: nil)
+            
+            
+//            let storyBoard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+//            let newViewController = storyBoard.instantiateViewController(withIdentifier: "aboutus") as! AboutUsController
+//            self.present(newViewController, animated: true, completion: nil)
             break
             
         case 2:

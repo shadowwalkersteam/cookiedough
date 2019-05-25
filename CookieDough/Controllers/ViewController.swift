@@ -11,14 +11,14 @@ import ProgressWebViewController
 
 class ViewController: UIViewController, UIWebViewDelegate {
     @IBOutlet weak var webview: UIWebView!
-    @IBOutlet weak var menuBtn: UIButton!
     @IBOutlet weak var inidicator1: UIActivityIndicatorView!
     
+    @IBOutlet weak var menuBtn: UIBarButtonItem!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        self.navigationController?.setNavigationBarHidden(true, animated: false)
-        self.navigationController?.navigationBar.topItem?.title = " "
+//        self.navigationController?.setNavigationBarHidden(true, animated: false)
+//        self.navigationController?.navigationBar.topItem?.title = " "
 
         let url = URL(string: "https://cookiedoughboutique.com/mobileslider/")
         let requestObj = URLRequest(url: url! as URL)
@@ -26,11 +26,11 @@ class ViewController: UIViewController, UIWebViewDelegate {
         webview.scrollView.isScrollEnabled = false
         self.webview.delegate = self
         
-        menuBtn.addTarget(revealViewController(), action: #selector(SWRevealViewController.revealToggle(_:)), for: .touchUpInside)
+//        menuBtn.addTarget(revealViewController(), action: #selector(SWRevealViewController.revealToggle(_:)), for: .touchUpInside)
         
         
-        //menuBtn.actions(forTarget: revealViewController(), forControlEvent: .touchUpInside)
-        //menuBtn.action = #selector(SWRevealViewController.revealToggle(_:))
+        menuBtn.target = revealViewController()
+        menuBtn.action = #selector(SWRevealViewController.revealToggle(_:))
       
     }
     

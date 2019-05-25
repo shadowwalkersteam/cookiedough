@@ -117,13 +117,20 @@ class AboutUsController: UIViewController {
         countFontSize += 1
     }
     
+    @IBAction func dismissBtn(_ sender: UIButton) {
+        
+        let storyBoard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+        let newViewController = storyBoard.instantiateViewController(withIdentifier: "ViewController") as! ViewController
+        self.present(newViewController, animated: true, completion: nil)
+        
+    }
     @IBAction func copyText(_ sender: Any) {
         
     }
     
     override func viewWillAppear(_ animated: Bool) {
-        self.navigationController?.setToolbarHidden(true, animated: false)
-        self.navigationController?.setNavigationBarHidden(true, animated: false)
+//        self.navigationController?.setToolbarHidden(true, animated: false)
+//        self.navigationController?.setNavigationBarHidden(true, animated: false)
     }
     
     @IBAction func dayAndNight(_ sender: Any) {
