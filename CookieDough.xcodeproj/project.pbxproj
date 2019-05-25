@@ -17,7 +17,7 @@
 		46BDB97B228C679A005697E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46BDB979228C679A005697E5 /* LaunchScreen.storyboard */; };
 		46BDB99F228C7F89005697E5 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46BDB99E228C7F89005697E5 /* Colors.xcassets */; };
 		46BDB9A4228C85A4005697E5 /* Strings.strings in Resources */ = {isa = PBXBuildFile; fileRef = 46BDB9A6228C85A4005697E5 /* Strings.strings */; };
-		F6D235901D68CF89C0A4A046 /* Pods_CookieDough.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D830E7041BE6EF0CBE4D66CB /* Pods_CookieDough.framework */; };
+		656D934FB08BE31D3EB1479A /* Pods_CookieDough.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56647733EC61D665D20D1812 /* Pods_CookieDough.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,7 +36,7 @@
 		46BDB97C228C679A005697E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		46BDB99E228C7F89005697E5 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		46BDB9A5228C85A4005697E5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Strings.strings; sourceTree = "<group>"; };
-		D830E7041BE6EF0CBE4D66CB /* Pods_CookieDough.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CookieDough.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		56647733EC61D665D20D1812 /* Pods_CookieDough.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CookieDough.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DACF970D8874172CA1A8D414 /* Pods-CookieDough.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CookieDough.release.xcconfig"; path = "Pods/Target Support Files/Pods-CookieDough/Pods-CookieDough.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -45,7 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F6D235901D68CF89C0A4A046 /* Pods_CookieDough.framework in Frameworks */,
+				656D934FB08BE31D3EB1479A /* Pods_CookieDough.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -55,7 +55,7 @@
 		089C257BB3EE9366B8CE00C1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				D830E7041BE6EF0CBE4D66CB /* Pods_CookieDough.framework */,
+				56647733EC61D665D20D1812 /* Pods_CookieDough.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -126,7 +126,7 @@
 				46BDB969228C6798005697E5 /* Sources */,
 				46BDB96A228C6798005697E5 /* Frameworks */,
 				46BDB96B228C6798005697E5 /* Resources */,
-				B6CC619F017D47D85818B39A /* [CP] Embed Pods Frameworks */,
+				2FDCF381A325B5A7EA29EBF3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -205,22 +205,26 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		B6CC619F017D47D85818B39A /* [CP] Embed Pods Frameworks */ = {
+		2FDCF381A325B5A7EA29EBF3 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
+			inputFileListPaths = (
+			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-CookieDough/Pods-CookieDough-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-CookieDough/Pods-CookieDough-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/ProgressWebViewController/ProgressWebViewController.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ProgressWebViewController.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CookieDough/Pods-CookieDough-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CookieDough/Pods-CookieDough-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
