@@ -8,7 +8,8 @@
 
 import Foundation
 
-class NotificationHandler {
+class NotificationHandler : Codable {
+    
     var title: String
     var body: String
     

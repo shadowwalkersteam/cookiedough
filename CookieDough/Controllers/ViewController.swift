@@ -48,11 +48,6 @@ class ViewController: UIViewController, UIWebViewDelegate {
         self.navigationController?.setToolbarHidden(true, animated: false)
     }
     
-    override func viewWillDisappear(_ animated: Bool) {
-        super.viewWillDisappear(animated)
-        self.navigationController?.setNavigationBarHidden(false, animated: animated)
-    }
-    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         guard let identifier = segue.identifier else {
             return
@@ -83,10 +78,10 @@ class ViewController: UIViewController, UIWebViewDelegate {
     private func loadURL(progressWebViewController: ProgressWebViewController, url: String, title: String) {
         let url = URL(string: url)
         progressWebViewController.disableZoom = true
-        progressWebViewController.navigationItem.title = title
-        //progressWebViewController.navigationWay = .browser
-        //progressWebViewController.pullToRefresh = true
         progressWebViewController.toolbarItemTypes = [.back, .forward, .reload, .activity]
+        progressWebViewController.navigationItem.title = title
+        progressWebViewController.navigationWay = .browser
+        progressWebViewController.pullToRefresh = true
         progressWebViewController.url = url
         progressWebViewController.doneBarButtonItemPosition = .none
         progressWebViewController.headers = ["browser": "in-app browser"]

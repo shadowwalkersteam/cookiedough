@@ -7,7 +7,7 @@ target 'CookieDough' do
 
   # Pods for CookieDough
 
-pod 'ProgressWebViewController', '~> 1.8'
+pod 'ProgressWebViewController', '~> 1.8.2'
 pod 'OneSignal', '~> 2.10'
 
 end

@@ -14,6 +14,7 @@ class MenuViewController: UIViewController, UITableViewDelegate,UITableViewDataS
     
     @IBOutlet weak var menutableView: UITableView!
     var itemIndex = 0
+    var section = 0
     
     
     //var dataArray = ["Notifications", "About Us","Event Planning","NCC"]
@@ -27,8 +28,7 @@ class MenuViewController: UIViewController, UITableViewDelegate,UITableViewDataS
         
         menutableView.delegate = self
         menutableView.dataSource = self
-        
-        self.navigationController?.setNavigationBarHidden(false, animated: false)
+            
         menutableView.tableFooterView = UIView()
         menutableView.separatorStyle = .none
 
@@ -120,8 +120,9 @@ class MenuViewController: UIViewController, UITableViewDelegate,UITableViewDataS
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         itemIndex = indexPath.row
-        self.revealViewController().revealToggle(animated: true)
-         performSegue(withIdentifier: "web", sender: self)
+        section = indexPath.section
+//        self.revealViewController().revealToggle(animated: true)
+        performSegue(withIdentifier: "web", sender: self)
     }
 
     private func loadURL(progressWebViewController: ProgressWebViewController, url: String, title: String) {
@@ -141,21 +142,62 @@ class MenuViewController: UIViewController, UITableViewDelegate,UITableViewDataS
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let progressWebViewController = segue.destination as? ProgressWebViewController
         
-        switch itemIndex {
-        case 1:
-            let storyBoard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
-            let newViewController = storyBoard.instantiateViewController(withIdentifier: "aboutus") as! AboutUsController
-            self.present(newViewController, animated: true, completion: nil)
-            break
-            
-        case 2:
-            loadURL(progressWebViewController: progressWebViewController! ,url: "https://cookiedoughboutique.com/event-planning-meeting-request/", title: "Event Planning")
-        
-        case 3:
-            loadURL(progressWebViewController: progressWebViewController! ,url: "https://cookiedoughboutique.com/nursery-consulting-center/", title: "NCC Checklist")
-            
-        default:
-            print("Unknown segue \(itemIndex)")
+        if (section == 0) {
+            switch itemIndex {
+            case 1:
+                let storyBoard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+                let newViewController = storyBoard.instantiateViewController(withIdentifier: "aboutus") as! AboutUsController
+                self.present(newViewController, animated: true, completion: nil)
+                break
+                
+            case 2:
+                loadURL(progressWebViewController: progressWebViewController! ,url: "https://cookiedoughboutique.com/event-planning-meeting-request/", title: "Event Planning")
+                
+            case 3:
+                loadURL(progressWebViewController: progressWebViewController! ,url: "https://cookiedoughboutique.com/nursery-consulting-center/", title: "NCC Checklist")
+                
+            default:
+                print("Unknown segue \(itemIndex)")
+            }
+        }
+        else if (section == 1) {
+            switch itemIndex {
+            case 1:
+                loadURL(progressWebViewController: progressWebViewController! ,url: "https://cookiedoughboutique.com/gift-card/", title: "Gift Cards")
+                
+            case 2:
+                loadURL(progressWebViewController: progressWebViewController! ,url: "https://cookiedoughboutique.com/product-category/shop/baby-goods/", title: "Baby Goods")
+                
+            case 3:
+                loadURL(progressWebViewController: progressWebViewController! ,url: "https://cookiedoughboutique.com/product-category/shop/boys/", title: "Boys")
+                
+            case 4:
+                loadURL(progressWebViewController: progressWebViewController! ,url: "https://cookiedoughboutique.com/product-category/shop/girls/", title: "Girls")
+                
+            case 5:
+                loadURL(progressWebViewController: progressWebViewController! ,url: "https://cookiedoughboutique.com/product-category/shop/furniture/room-accessories/", title: "Furniture")
+                
+            default:
+                print("Unknown segue \(itemIndex)")
+            }
+        }
+        else if (section == 2) {
+            switch itemIndex {
+            case 0:
+                loadURL(progressWebViewController: progressWebViewController! ,url: "https://cookiedoughboutique.com/ncc-parents-workshops-and-seminars/", title: "Events")
+                
+            case 1:
+                loadURL(progressWebViewController: progressWebViewController! ,url: "https://cookiedoughboutique.com/baby-registry/", title: "Baby Registry")
+                
+            case 2:
+                loadURL(progressWebViewController: progressWebViewController! ,url: "https://cookiedoughboutique.com/blog/", title: "Blog")
+                
+            case 3:
+                 loadURL(progressWebViewController: progressWebViewController! ,url: "https://cookiedoughboutique.com/contact/", title: "Contact US")
+                
+            default:
+                print("Unknown segue \(itemIndex)")
+            }
         }
     }
 }

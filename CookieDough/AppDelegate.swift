@@ -21,17 +21,28 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         let notificationReceivedBlock: OSHandleNotificationReceivedBlock = { notification in
             
-            print("Received Notification: \(String(describing: notification!.payload.title))")
-            print("content_available = \(String(describing: notification!.payload.body))")
+//            print("Received Notification: \(String(describing: notification!.payload.title))")
+//            print("content_available = \(String(describing: notification!.payload.body))")
             
             let dataHandler = NotificationHandler(title: notification!.payload.title, body: notification!.payload.body)
             
-            var dataArray: [NotificationHandler] = []
-            dataArray.append(dataHandler)
+//            var dataArray: [NotificationHandler] = []
+//            dataArray.append(dataHandler)
             
-            let notificationData = NSKeyedArchiver.archivedData(withRootObject: dataArray)
-            UserDefaults.standard.set(notificationData, forKey: "notifications")
+            let placeData = UserDefaults.standard.data(forKey: "places")
+            var placeArray = try! JSONDecoder().decode([NotificationHandler].self, from: placeData!)
             
+            if (placeArray != nil && placeArray.count > 0) {
+                placeArray.append(dataHandler)
+                let notificationData = try! JSONEncoder().encode(placeArray)
+                UserDefaults.standard.set(notificationData, forKey: "places")
+            }
+            else {
+                var dataArray = [NotificationHandler]()
+                dataArray.append(dataHandler)
+                let notificationData = try! JSONEncoder().encode(dataArray)
+                UserDefaults.standard.set(notificationData, forKey: "places")
+            }
         }
         
         // Replace 'YOUR_APP_ID' with your OneSignal App ID.
@@ -72,6 +83,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
 
-
+    func loadPlaces() {
+        let placeData = UserDefaults.standard.data(forKey: "places")
+        let placeArray = try! JSONDecoder().decode([NotificationHandler].self, from: placeData!)
+        
+        for place in placeArray {
+            print("")
+            print("Title: \(place.title)")
+            print("Body: \(place.body)")
+        }
+    }
 }
 
