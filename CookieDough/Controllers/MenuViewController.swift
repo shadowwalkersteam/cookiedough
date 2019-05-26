@@ -14,14 +14,14 @@ class MenuViewController: UIViewController, UITableViewDelegate,UITableViewDataS
     
     @IBOutlet weak var menutableView: UITableView!
     var itemIndex = 0
-    var section = 0
+    var section = 2
     
     
     //var dataArray = ["Notifications", "About Us","Event Planning","NCC"]
     
-    let dataArray = [["Notifications", "About Us", "Event Planning","NCC"], ["By brands", "Gift Cards", "Baby Goods","Boys","Girls","Furniture"],["Events", "Baby Registry", "Blog","Contact Us"]]
+    let dataArray = [["Notifications", "About Us", "Event Planning","NCC"], ["Gift Cards", "Baby Goods","Boys","Girls","Furniture"],["Shop By Brands","Angel Care", "Baby Mori", "Babyzen", "Bebe au Lait", "Bloom", "Boxbo", "Ergobaby", "Gardner and the Gang", "Go Baby Go", "Lorena Canals", "Mommy Hooks", "Nose Frida", "Orbit Baby", "Organic Zoo","Sleepyhead", "Snuglo", "Stokke", "Tiba+Marl", "ToteSavvy", "Tutu du Monde"],["Events", "Baby Registry", "Blog","Contact Us"]]
     
-    let headerTitles = ["","Shop +", ""]
+    let headerTitles = ["","Shop +","By Brands", ""]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -51,8 +51,7 @@ class MenuViewController: UIViewController, UITableViewDelegate,UITableViewDataS
     
     
     func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
-
-        if section == 2 {
+        if section == 3 {
             let v = UIView(frame: CGRect(x: 0, y:0, width: tableView.frame.width, height: 30))
             //v.backgroundColor = .yellow
             let label = UILabel(frame: CGRect(x: 8.0, y: 4.0, width: v.bounds.size.width - 16.0, height: v.bounds.size.height - 8.0))
@@ -65,11 +64,14 @@ class MenuViewController: UIViewController, UITableViewDelegate,UITableViewDataS
     }
     
     func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
-        
         if section == 1 {
             return 30
-        }else if section == 2 {
-            return 10
+        }
+        if section == 2 {
+            return 30
+        }
+        if section == 3 {
+            return 30
         }
         return 0
     }
@@ -77,7 +79,7 @@ class MenuViewController: UIViewController, UITableViewDelegate,UITableViewDataS
     
     func tableView(_ tableView: UITableView, viewForFooterInSection section: Int) -> UIView? {
     
-        if section == 0 || section == 1 {
+        if section == 0 || section == 1 || section == 2{
             let v = UIView(frame: CGRect(x: 0, y:0, width: tableView.frame.width, height: 1))
             v.backgroundColor = UIColor.purple
             
@@ -108,9 +110,12 @@ class MenuViewController: UIViewController, UITableViewDelegate,UITableViewDataS
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as? UITableViewCell
         
         cell?.textLabel?.text = dataArray[indexPath.section][indexPath.row]
-        
+//        if (cell?.textLabel?.text == "By Brands") {
+//            cell?.textLabel?.font = cell?.textLabel?.font.bold()
+//        }
         return cell!
     }
+    
     
     override func viewWillAppear(_ animated: Bool) {
         self.navigationController?.setToolbarHidden(false, animated: false)
@@ -122,7 +127,13 @@ class MenuViewController: UIViewController, UITableViewDelegate,UITableViewDataS
         itemIndex = indexPath.row
         section = indexPath.section
 //        self.revealViewController().revealToggle(animated: true)
-        performSegue(withIdentifier: "web", sender: self)
+        if (section == 0 && itemIndex == 0) {
+            return
+        }
+        else if (section == 2 && itemIndex == 0) {
+            return
+        }
+        performSegue(withIdentifier: SWSegueFrontIdentifier, sender: nil)
     }
 
     private func loadURL(progressWebViewController: ProgressWebViewController, url: String, title: String) {
@@ -131,16 +142,19 @@ class MenuViewController: UIViewController, UITableViewDelegate,UITableViewDataS
         progressWebViewController.navigationItem.title = title
         //progressWebViewController.navigationWay = .browser
         //progressWebViewController.pullToRefresh = true
+        progressWebViewController.doneBarButtonItemPosition = .right
+        progressWebViewController.rightNavigaionBarItemTypes = [.done]
         progressWebViewController.toolbarItemTypes = [.back, .forward, .reload, .activity]
         progressWebViewController.url = url
-        progressWebViewController.doneBarButtonItemPosition = .none
         progressWebViewController.headers = ["browser": "in-app browser"]
         progressWebViewController.tintColor = UIColor(named: "colorPrimaryDark")
-    
+        
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        let progressWebViewController = segue.destination as? ProgressWebViewController
+        guard let navigationController = segue.destination as? UINavigationController, let progressWebViewController = navigationController.topViewController as? ProgressWebViewController else {
+            return
+        }
         
         if (section == 0) {
             switch itemIndex {
@@ -151,10 +165,10 @@ class MenuViewController: UIViewController, UITableViewDelegate,UITableViewDataS
                 break
                 
             case 2:
-                loadURL(progressWebViewController: progressWebViewController! ,url: "https://cookiedoughboutique.com/event-planning-meeting-request/", title: "Event Planning")
+                loadURL(progressWebViewController: progressWebViewController ,url: "https://cookiedoughboutique.com/event-planning-meeting-request/", title: "Event Planning")
                 
             case 3:
-                loadURL(progressWebViewController: progressWebViewController! ,url: "https://cookiedoughboutique.com/nursery-consulting-center/", title: "NCC Checklist")
+                loadURL(progressWebViewController: progressWebViewController ,url: "https://cookiedoughboutique.com/nursery-consulting-center/", title: "NCC Checklist")
                 
             default:
                 print("Unknown segue \(itemIndex)")
@@ -162,20 +176,20 @@ class MenuViewController: UIViewController, UITableViewDelegate,UITableViewDataS
         }
         else if (section == 1) {
             switch itemIndex {
+            case 0:
+                loadURL(progressWebViewController: progressWebViewController ,url: "https://cookiedoughboutique.com/gift-card/", title: "Gift Cards")
+                
             case 1:
-                loadURL(progressWebViewController: progressWebViewController! ,url: "https://cookiedoughboutique.com/gift-card/", title: "Gift Cards")
+                loadURL(progressWebViewController: progressWebViewController ,url: "https://cookiedoughboutique.com/product-category/shop/baby-goods/", title: "Baby Goods")
                 
             case 2:
-                loadURL(progressWebViewController: progressWebViewController! ,url: "https://cookiedoughboutique.com/product-category/shop/baby-goods/", title: "Baby Goods")
+                loadURL(progressWebViewController: progressWebViewController ,url: "https://cookiedoughboutique.com/product-category/shop/boys/", title: "Boys")
                 
             case 3:
-                loadURL(progressWebViewController: progressWebViewController! ,url: "https://cookiedoughboutique.com/product-category/shop/boys/", title: "Boys")
+                loadURL(progressWebViewController: progressWebViewController ,url: "https://cookiedoughboutique.com/product-category/shop/girls/", title: "Girls")
                 
             case 4:
-                loadURL(progressWebViewController: progressWebViewController! ,url: "https://cookiedoughboutique.com/product-category/shop/girls/", title: "Girls")
-                
-            case 5:
-                loadURL(progressWebViewController: progressWebViewController! ,url: "https://cookiedoughboutique.com/product-category/shop/furniture/room-accessories/", title: "Furniture")
+                loadURL(progressWebViewController: progressWebViewController ,url: "https://cookiedoughboutique.com/product-category/shop/furniture/room-accessories/", title: "Furniture")
                 
             default:
                 print("Unknown segue \(itemIndex)")
@@ -183,22 +197,101 @@ class MenuViewController: UIViewController, UITableViewDelegate,UITableViewDataS
         }
         else if (section == 2) {
             switch itemIndex {
-            case 0:
-                loadURL(progressWebViewController: progressWebViewController! ,url: "https://cookiedoughboutique.com/ncc-parents-workshops-and-seminars/", title: "Events")
-                
             case 1:
-                loadURL(progressWebViewController: progressWebViewController! ,url: "https://cookiedoughboutique.com/baby-registry/", title: "Baby Registry")
+                loadURL(progressWebViewController: progressWebViewController ,url: "https://cookiedoughboutique.com/product-category/angel-care/", title: "Angel Care")
                 
             case 2:
-                loadURL(progressWebViewController: progressWebViewController! ,url: "https://cookiedoughboutique.com/blog/", title: "Blog")
+                loadURL(progressWebViewController: progressWebViewController ,url: "https://cookiedoughboutique.com/product-category/baby-mori/", title: "Baby Mori")
                 
             case 3:
-                 loadURL(progressWebViewController: progressWebViewController! ,url: "https://cookiedoughboutique.com/contact/", title: "Contact US")
+                loadURL(progressWebViewController: progressWebViewController ,url: "https://cookiedoughboutique.com/product-category/babyzen/", title: "Babyzen")
+                
+            case 4:
+                loadURL(progressWebViewController: progressWebViewController ,url: "https://cookiedoughboutique.com/product-category/bebe-au-lait/", title: "Bebe au Lait")
+                
+            case 5:
+                loadURL(progressWebViewController: progressWebViewController ,url: "https://cookiedoughboutique.com/product-category/bloom/", title: "Bloom")
+                
+            case 6:
+                loadURL(progressWebViewController: progressWebViewController ,url: "https://cookiedoughboutique.com/product-category/boxbo/", title: "Boxbo")
+                
+            case 7:
+                loadURL(progressWebViewController: progressWebViewController ,url: "https://cookiedoughboutique.com/product-category/ergobaby/", title: "Ergobaby")
+                
+            case 8:
+                loadURL(progressWebViewController: progressWebViewController ,url: "https://cookiedoughboutique.com/product-category/gardner-the-gang/", title: "Gardner and the Gang")
+                
+            case 9:
+                loadURL(progressWebViewController: progressWebViewController ,url: "https://cookiedoughboutique.com/product-category/go-baby-go/", title: "Go Baby Go")
+                
+            case 10:
+                loadURL(progressWebViewController: progressWebViewController ,url: "https://cookiedoughboutique.com/product-category/lorena-canals/", title: "Lorena Canals")
+                
+            case 11:
+                loadURL(progressWebViewController: progressWebViewController ,url: "https://cookiedoughboutique.com/product-category/mommy-hooks/", title: "Mommy Hooks")
+                
+            case 12:
+                loadURL(progressWebViewController: progressWebViewController ,url: "https://cookiedoughboutique.com/product-category/nose-frida/", title: "Nose Frida")
+                
+            case 13:
+                loadURL(progressWebViewController: progressWebViewController ,url: "https://cookiedoughboutique.com/product-category/orbit-baby/", title: "Orbit Baby")
+                
+            case 14:
+                loadURL(progressWebViewController: progressWebViewController ,url: "https://cookiedoughboutique.com/product-category/organic-zoo/", title: "Organic Zoo")
+                
+            case 15:
+                loadURL(progressWebViewController: progressWebViewController ,url: "https://cookiedoughboutique.com/product-category/sleepyhead/", title: "Sleepyhead")
+                
+            case 16:
+                loadURL(progressWebViewController: progressWebViewController ,url: "https://cookiedoughboutique.com/product-category/shop/snuglo/", title: "Snuglo")
+                
+            case 17:
+                loadURL(progressWebViewController: progressWebViewController ,url: "https://cookiedoughboutique.com/product-category/stokke/", title: "Stokke")
+                
+            case 18:
+                loadURL(progressWebViewController: progressWebViewController ,url: "https://cookiedoughboutique.com/product-category/tibamarl/", title: "Tiba+Marl")
+                
+            case 19:
+                loadURL(progressWebViewController: progressWebViewController ,url: "https://cookiedoughboutique.com/product-category/totesavvy/", title: "ToteSavvy")
+                
+            case 20:
+                loadURL(progressWebViewController: progressWebViewController ,url: "https://cookiedoughboutique.com/product-category/tutu-du-monde/", title: "Tutu du Monde")
                 
             default:
                 print("Unknown segue \(itemIndex)")
             }
         }
+            
+        else if (section == 3) {
+            switch itemIndex {
+            case 0:
+                loadURL(progressWebViewController: progressWebViewController ,url: "https://cookiedoughboutique.com/ncc-parents-workshops-and-seminars/", title: "Events")
+                
+            case 1:
+                loadURL(progressWebViewController: progressWebViewController ,url: "https://cookiedoughboutique.com/baby-registry/", title: "Baby Registry")
+                
+            case 2:
+                loadURL(progressWebViewController: progressWebViewController ,url: "https://cookiedoughboutique.com/blog/", title: "Blog")
+                
+            case 3:
+                 loadURL(progressWebViewController: progressWebViewController ,url: "https://cookiedoughboutique.com/contact/", title: "Contact US")
+                
+            default:
+                print("Unknown segue \(itemIndex)")
+            }
+        }
+    }
+}
+extension UIFont {
+    
+    func withTraits(traits:UIFontDescriptorSymbolicTraits...) -> UIFont {
+        let descriptor = self.fontDescriptor
+            .withSymbolicTraits(UIFontDescriptorSymbolicTraits(traits))
+        return UIFont(descriptor: descriptor!, size: 0)
+    }
+    
+    func bold() -> UIFont {
+        return withTraits(traits: .traitBold)
     }
 }
     

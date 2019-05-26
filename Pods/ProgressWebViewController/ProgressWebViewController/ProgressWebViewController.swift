@@ -687,6 +687,7 @@ extension ProgressWebViewController: UIScrollViewDelegate {
         if canDismiss {
             dismiss(animated: true, completion: nil)
         }
+          UIApplication.shared.keyWindow?.rootViewController = storyboard!.instantiateViewController(withIdentifier: "home2")
     }
     
     func refreshWebView(sender: UIRefreshControl) {

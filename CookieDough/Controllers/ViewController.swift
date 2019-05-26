@@ -67,6 +67,9 @@ class ViewController: UIViewController, UIWebViewDelegate {
         case "babyRegistry":
             loadURL(progressWebViewController: progressWebViewController! ,url: "https://cookiedoughboutique.com/baby-registry/", title: "Baby Registry")
             
+        case "cart":
+            loadURL(progressWebViewController: progressWebViewController! ,url: "https://cookiedoughboutique.com/cart/", title: "Cart")
+            
         case "aboutUSPage":
             _ = segue.destination as! AboutUsController
             
