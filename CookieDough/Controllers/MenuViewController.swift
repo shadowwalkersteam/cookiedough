@@ -19,7 +19,7 @@ class MenuViewController: UIViewController, UITableViewDelegate,UITableViewDataS
     
     //var dataArray = ["Notifications", "About Us","Event Planning","NCC"]
     
-    let dataArray = [["Notifications", "About Us", "Event Planning","NCC"], ["Gift Cards", "Baby Goods","Boys","Girls","Furniture"],["Shop By Brands","Angel Care", "Baby Mori", "Babyzen", "Bebe au Lait", "Bloom", "Boxbo", "Ergobaby", "Gardner and the Gang", "Go Baby Go", "Lorena Canals", "Mommy Hooks", "Nose Frida", "Orbit Baby", "Organic Zoo","Sleepyhead", "Snuglo", "Stokke", "Tiba+Marl", "ToteSavvy", "Tutu du Monde"],["Events", "Baby Registry", "Blog","Contact Us"]]
+    let dataArray = [["Notifications", "About Us", "Event Planning","NCC"], ["Gift Cards", "Baby Goods","Boys","Girls","Furniture"],["Angel Care", "Baby Mori", "Babyzen", "Bebe au Lait", "Bloom", "Boxbo", "Ergobaby", "Gardner and the Gang", "Go Baby Go", "Lorena Canals", "Mommy Hooks", "Nose Frida", "Orbit Baby", "Organic Zoo","Sleepyhead", "Snuglo", "Stokke", "Tiba+Marl", "ToteSavvy", "Tutu du Monde"],["Events", "Baby Registry", "Blog","Contact Us"]]
     
     let headerTitles = ["","Shop +","By Brands", ""]
     
@@ -130,9 +130,6 @@ class MenuViewController: UIViewController, UITableViewDelegate,UITableViewDataS
         if (section == 0 && itemIndex == 0) {
             return
         }
-        else if (section == 2 && itemIndex == 0) {
-            return
-        }
         performSegue(withIdentifier: SWSegueFrontIdentifier, sender: nil)
     }
 
@@ -197,64 +194,64 @@ class MenuViewController: UIViewController, UITableViewDelegate,UITableViewDataS
         }
         else if (section == 2) {
             switch itemIndex {
-            case 1:
+            case 0:
                 loadURL(progressWebViewController: progressWebViewController ,url: "https://cookiedoughboutique.com/product-category/angel-care/", title: "Angel Care")
                 
-            case 2:
+            case 1:
                 loadURL(progressWebViewController: progressWebViewController ,url: "https://cookiedoughboutique.com/product-category/baby-mori/", title: "Baby Mori")
                 
-            case 3:
+            case 2:
                 loadURL(progressWebViewController: progressWebViewController ,url: "https://cookiedoughboutique.com/product-category/babyzen/", title: "Babyzen")
                 
-            case 4:
+            case 3:
                 loadURL(progressWebViewController: progressWebViewController ,url: "https://cookiedoughboutique.com/product-category/bebe-au-lait/", title: "Bebe au Lait")
                 
-            case 5:
+            case 4:
                 loadURL(progressWebViewController: progressWebViewController ,url: "https://cookiedoughboutique.com/product-category/bloom/", title: "Bloom")
                 
-            case 6:
+            case 5:
                 loadURL(progressWebViewController: progressWebViewController ,url: "https://cookiedoughboutique.com/product-category/boxbo/", title: "Boxbo")
                 
-            case 7:
+            case 6:
                 loadURL(progressWebViewController: progressWebViewController ,url: "https://cookiedoughboutique.com/product-category/ergobaby/", title: "Ergobaby")
                 
-            case 8:
+            case 7:
                 loadURL(progressWebViewController: progressWebViewController ,url: "https://cookiedoughboutique.com/product-category/gardner-the-gang/", title: "Gardner and the Gang")
                 
-            case 9:
+            case 8:
                 loadURL(progressWebViewController: progressWebViewController ,url: "https://cookiedoughboutique.com/product-category/go-baby-go/", title: "Go Baby Go")
                 
-            case 10:
+            case 9:
                 loadURL(progressWebViewController: progressWebViewController ,url: "https://cookiedoughboutique.com/product-category/lorena-canals/", title: "Lorena Canals")
                 
-            case 11:
+            case 10:
                 loadURL(progressWebViewController: progressWebViewController ,url: "https://cookiedoughboutique.com/product-category/mommy-hooks/", title: "Mommy Hooks")
                 
-            case 12:
+            case 11:
                 loadURL(progressWebViewController: progressWebViewController ,url: "https://cookiedoughboutique.com/product-category/nose-frida/", title: "Nose Frida")
                 
-            case 13:
+            case 12:
                 loadURL(progressWebViewController: progressWebViewController ,url: "https://cookiedoughboutique.com/product-category/orbit-baby/", title: "Orbit Baby")
                 
-            case 14:
+            case 13:
                 loadURL(progressWebViewController: progressWebViewController ,url: "https://cookiedoughboutique.com/product-category/organic-zoo/", title: "Organic Zoo")
                 
-            case 15:
+            case 14:
                 loadURL(progressWebViewController: progressWebViewController ,url: "https://cookiedoughboutique.com/product-category/sleepyhead/", title: "Sleepyhead")
                 
-            case 16:
+            case 15:
                 loadURL(progressWebViewController: progressWebViewController ,url: "https://cookiedoughboutique.com/product-category/shop/snuglo/", title: "Snuglo")
                 
-            case 17:
+            case 16:
                 loadURL(progressWebViewController: progressWebViewController ,url: "https://cookiedoughboutique.com/product-category/stokke/", title: "Stokke")
                 
-            case 18:
+            case 17:
                 loadURL(progressWebViewController: progressWebViewController ,url: "https://cookiedoughboutique.com/product-category/tibamarl/", title: "Tiba+Marl")
                 
-            case 19:
+            case 18:
                 loadURL(progressWebViewController: progressWebViewController ,url: "https://cookiedoughboutique.com/product-category/totesavvy/", title: "ToteSavvy")
                 
-            case 20:
+            case 19:
                 loadURL(progressWebViewController: progressWebViewController ,url: "https://cookiedoughboutique.com/product-category/tutu-du-monde/", title: "Tutu du Monde")
                 
             default:

@@ -680,6 +680,8 @@ extension ProgressWebViewController: UIScrollViewDelegate {
     }
     
     func doneDidClick(sender: AnyObject) {
+        print("done button clicked")
+          UIApplication.shared.keyWindow?.rootViewController = storyboard!.instantiateViewController(withIdentifier: "home2")
         var canDismiss = true
         if let url = url {
             canDismiss = delegate?.progressWebViewController?(self, canDismiss: url) ?? true
@@ -687,7 +689,6 @@ extension ProgressWebViewController: UIScrollViewDelegate {
         if canDismiss {
             dismiss(animated: true, completion: nil)
         }
-          UIApplication.shared.keyWindow?.rootViewController = storyboard!.instantiateViewController(withIdentifier: "home2")
     }
     
     func refreshWebView(sender: UIRefreshControl) {
