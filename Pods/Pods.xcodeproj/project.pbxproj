@@ -28,89 +28,103 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		42D66EC41F1E0C393DF022FE2602DF2D /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15A182D868B221CB881E8542717947B7 /* Enums.swift */; };
-		6BCB629E27F8766EAEFEDD292CD65636 /* Pods-OneSignalNotificationServiceExtension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 068D896192114F3B2A1A71A8137D0EE3 /* Pods-OneSignalNotificationServiceExtension-dummy.m */; };
-		80FA323208397A1AB8D2568945443B13 /* ProgressWebViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4059889F7E7A35E39AA6F5B6CD94046E /* ProgressWebViewController-dummy.m */; };
-		8CA16484D35210303EBB7ADF3A4A79C0 /* Pods-CookieDough-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CFA4D252AF1A2C23BD9EC268C6526EFF /* Pods-CookieDough-dummy.m */; };
-		A0534D9BCB1A3A6205EAFB20DE6F23F3 /* Pods-CookieDough-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9556477874746ED05402BEAE18E77A4A /* Pods-CookieDough-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		AA4395DDCEE57C406C08D7F78278C579 /* ProgressWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBC319DF8D85DB0A83C5D8D83E3B139 /* ProgressWebViewController.swift */; };
-		B60A9FF7A669F92D04A2100F29E5E8A9 /* ProgressWebViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB3139569802FDA4B200E6443F3A59 /* ProgressWebViewController-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		241F7F6BF02117A5B86F2DDAB4546F2A /* Pods-OneSignalNotificationServiceExtension-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F000B39844F342E45E74FB6FFF1FAE4C /* Pods-OneSignalNotificationServiceExtension-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		65E57A9678A3430092CB9FEF886A6060 /* Pods-OneSignalNotificationServiceExtension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CD7D0FD32626E41FB8ED8838C7DF895D /* Pods-OneSignalNotificationServiceExtension-dummy.m */; };
+		6C2E4F8C30ADA4FF925B853F80D79957 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		8CBFE484D2C309124AE98CF3B1AC9DEB /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 581861DAB1154EC61929F46E74767545 /* Enums.swift */; };
+		98332015F6584F278062F46DBDB14065 /* Pods-CookieDough-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 768928EB390E286EDBA36DDBE35B42F6 /* Pods-CookieDough-dummy.m */; };
+		A23EA11E64A224167FFF4E228C060ECB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		B1AA8E27B4EA20096EA3FFE5C226084D /* Pods-CookieDough-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 630D00D23555F407C74128BB458B660C /* Pods-CookieDough-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B358187F8460174D46D7C3C8A532EF08 /* ProgressWebViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F2AB3ECE0C3F6E356455693974C1BA9 /* ProgressWebViewController-dummy.m */; };
+		D0E570F3FE41BEB4C1A3F50C343A8753 /* ProgressWebViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EFA47360312919B40D1A3046782C8D37 /* ProgressWebViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D44363405B3DB1EC8B88ED040460F109 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		D57E24286C8EFC26478151E574F5B87E /* ProgressWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A383EC2091F9EAB7A0BF9EBAC092D248 /* ProgressWebViewController.swift */; };
+		DFE2B64DD966E67336EE30E1FAEC73E1 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 855A8980AB75C5965715471375E1C749 /* Media.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		0F9218DB37C34ED7C8BD8025CB0EE21B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = FAEC05ABF71F3F43027EE756A42919F8;
-			remoteInfo = "OneSignal-iOS12.2";
-		};
-		E994D49CBAC00C8246DC3E2F2F699F46 /* PBXContainerItemProxy */ = {
+		00DB511DB069620FE4F61D98505C5C40 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 5894ED842D814C0040822DBDD1D53FC9;
 			remoteInfo = "OneSignal-iOS11.0";
 		};
-		EADEE37F479105B81F26A6C9D2ECDADC /* PBXContainerItemProxy */ = {
+		3A88FD9493590EDEB16A7327352B7F7A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 3554254DD7BC71D1297DEF7B73019DBE;
+			remoteGlobalIDString = 865F4624075067DD01535D4845BEF00A;
 			remoteInfo = ProgressWebViewController;
+		};
+		DC8246694A8D7B5B7CCB5E9D4DBAAB48 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAEC05ABF71F3F43027EE756A42919F8;
+			remoteInfo = "OneSignal-iOS12.2";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		04EB7276985B247EFBDEB18D09385B48 /* libPods-OneSignalNotificationServiceExtension.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-OneSignalNotificationServiceExtension.a"; path = "libPods-OneSignalNotificationServiceExtension.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		068D896192114F3B2A1A71A8137D0EE3 /* Pods-OneSignalNotificationServiceExtension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OneSignalNotificationServiceExtension-dummy.m"; sourceTree = "<group>"; };
-		0D29C2563708B231BD4F729CB2142252 /* Pods-CookieDough.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CookieDough.debug.xcconfig"; sourceTree = "<group>"; };
-		0F98402D3DAF46722C2874604F8465D7 /* Pods-CookieDough-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CookieDough-acknowledgements.plist"; sourceTree = "<group>"; };
-		15A182D868B221CB881E8542717947B7 /* Enums.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Enums.swift; path = ProgressWebViewController/Enums.swift; sourceTree = "<group>"; };
-		1AC3574F3C41BA43B18FAAC2A87049AD /* Pods-OneSignalNotificationServiceExtension-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OneSignalNotificationServiceExtension-acknowledgements.markdown"; sourceTree = "<group>"; };
-		25ED6D3C22619B5DF9E8E1AC4D9C7B70 /* Pods-OneSignalNotificationServiceExtension-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OneSignalNotificationServiceExtension-acknowledgements.plist"; sourceTree = "<group>"; };
-		39A58E74BB83E4456572391ACF898966 /* Pods-CookieDough-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CookieDough-resources.sh"; sourceTree = "<group>"; };
-		3E955D27FD1A782C45D5AD113022B6D6 /* ProgressWebViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ProgressWebViewController.modulemap; sourceTree = "<group>"; };
-		4059889F7E7A35E39AA6F5B6CD94046E /* ProgressWebViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ProgressWebViewController-dummy.m"; sourceTree = "<group>"; };
-		46EB3139569802FDA4B200E6443F3A59 /* ProgressWebViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ProgressWebViewController-umbrella.h"; sourceTree = "<group>"; };
-		49FE58ECD4DA9A0264A8B0BD7D4DBAD9 /* libProgressWebViewController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libProgressWebViewController.a; path = libProgressWebViewController.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B94BD44F27F52560596F9461DE08464 /* Pods-OneSignalNotificationServiceExtension.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-OneSignalNotificationServiceExtension.modulemap"; sourceTree = "<group>"; };
+		1494B0131CF78238407A4D579B824D16 /* Pods-CookieDough.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CookieDough.debug.xcconfig"; sourceTree = "<group>"; };
+		2E66158976516F63056E20F3A3900554 /* Pods_CookieDough.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CookieDough.framework; path = "Pods-CookieDough.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F20190D53B5D6995B1F86EE16D59056 /* ProgressWebViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ProgressWebViewController.framework; path = ProgressWebViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FBA7FD45BF01758ACAEF868523D0819 /* Pods-OneSignalNotificationServiceExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OneSignalNotificationServiceExtension.release.xcconfig"; sourceTree = "<group>"; };
+		4D663B9C25B66560DDB4758AFA0B3C13 /* Pods-OneSignalNotificationServiceExtension-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OneSignalNotificationServiceExtension-Info.plist"; sourceTree = "<group>"; };
 		53BF958EAE95342DAEFEBA820DE4AF3D /* OneSignal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OneSignal.framework; path = iOS_SDK/OneSignalSDK/Framework/OneSignal.framework; sourceTree = "<group>"; };
-		54B1872862305871361D49CE3CFDA631 /* Pods-OneSignalNotificationServiceExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OneSignalNotificationServiceExtension.debug.xcconfig"; sourceTree = "<group>"; };
-		556E92304C78B36B734144B676F27D24 /* Pods-CookieDough.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CookieDough.release.xcconfig"; sourceTree = "<group>"; };
-		5913AD460208CBACCF80C5D1A01B4586 /* ProgressWebViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ProgressWebViewController.xcconfig; sourceTree = "<group>"; };
+		5795579A23FE629B7CBE69F14A3CC8FF /* ProgressWebViewController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ProgressWebViewController-Info.plist"; sourceTree = "<group>"; };
+		581861DAB1154EC61929F46E74767545 /* Enums.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Enums.swift; path = ProgressWebViewController/Enums.swift; sourceTree = "<group>"; };
 		595D8E8ECE1D14116E1622EEA7B88F88 /* OneSignal-iOS11.0.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "OneSignal-iOS11.0.xcconfig"; sourceTree = "<group>"; };
+		630D00D23555F407C74128BB458B660C /* Pods-CookieDough-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CookieDough-umbrella.h"; sourceTree = "<group>"; };
+		68D16F73DCB09362800DE165475592A9 /* Pods-OneSignalNotificationServiceExtension-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OneSignalNotificationServiceExtension-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6F2AB3ECE0C3F6E356455693974C1BA9 /* ProgressWebViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ProgressWebViewController-dummy.m"; sourceTree = "<group>"; };
+		73C6AF9C3452ACC1B40BDA3C8E91E75F /* ProgressWebViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ProgressWebViewController.modulemap; sourceTree = "<group>"; };
+		768928EB390E286EDBA36DDBE35B42F6 /* Pods-CookieDough-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CookieDough-dummy.m"; sourceTree = "<group>"; };
+		7EE994E59D972E95A39C9F37C3DAAF2D /* Pods-OneSignalNotificationServiceExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OneSignalNotificationServiceExtension.debug.xcconfig"; sourceTree = "<group>"; };
+		821B9B2552D25DB982EC522F69787B46 /* Pods-CookieDough-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CookieDough-acknowledgements.markdown"; sourceTree = "<group>"; };
+		855A8980AB75C5965715471375E1C749 /* Media.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Media.xcassets; path = ProgressWebViewController/Media.xcassets; sourceTree = "<group>"; };
 		8C76A2731326221F9D20C36C541B2174 /* OneSignal-iOS12.2.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "OneSignal-iOS12.2.xcconfig"; path = "../OneSignal-iOS12.2/OneSignal-iOS12.2.xcconfig"; sourceTree = "<group>"; };
-		91353419F4F210B71B1CD772122E57E1 /* Media.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Media.xcassets; path = ProgressWebViewController/Media.xcassets; sourceTree = "<group>"; };
-		9556477874746ED05402BEAE18E77A4A /* Pods-CookieDough-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CookieDough-umbrella.h"; sourceTree = "<group>"; };
+		94B79C1A0B6C38C500DBEC706356554A /* Pods-CookieDough.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CookieDough.modulemap"; sourceTree = "<group>"; };
+		97BFEDBDBF578A1C619660A74544A8AC /* ProgressWebViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ProgressWebViewController.xcconfig; sourceTree = "<group>"; };
+		985F6954345EE19D9C9496B8836B3A59 /* Pods-CookieDough-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CookieDough-acknowledgements.plist"; sourceTree = "<group>"; };
+		9C7C49390E121721890590F136FB5D4C /* ProgressWebViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ProgressWebViewController-prefix.pch"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		B86BE71F10DFEEF7AFB16AEFA31B679F /* Pods-CookieDough-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CookieDough-acknowledgements.markdown"; sourceTree = "<group>"; };
-		BD298401B4006FFC0EBA0B57BF99135E /* Pods-OneSignalNotificationServiceExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OneSignalNotificationServiceExtension.release.xcconfig"; sourceTree = "<group>"; };
-		CD5DC6A104D5C9CFF15DB6704134BEF0 /* ProgressWebViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ProgressWebViewController-prefix.pch"; sourceTree = "<group>"; };
-		CFA4D252AF1A2C23BD9EC268C6526EFF /* Pods-CookieDough-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CookieDough-dummy.m"; sourceTree = "<group>"; };
-		D844C77C567CBA3A69F0477E1CFB125B /* Pods-CookieDough.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CookieDough.modulemap"; sourceTree = "<group>"; };
-		EDBC319DF8D85DB0A83C5D8D83E3B139 /* ProgressWebViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ProgressWebViewController.swift; path = ProgressWebViewController/ProgressWebViewController.swift; sourceTree = "<group>"; };
-		F984848D18436FDCFC2BB438620D606E /* libPods-CookieDough.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-CookieDough.a"; path = "libPods-CookieDough.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A383EC2091F9EAB7A0BF9EBAC092D248 /* ProgressWebViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ProgressWebViewController.swift; path = ProgressWebViewController/ProgressWebViewController.swift; sourceTree = "<group>"; };
+		AB26A35A5E5E9F847779DFF878224A49 /* Pods-CookieDough-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CookieDough-Info.plist"; sourceTree = "<group>"; };
+		B83A1503249CD13122EA7122879F593B /* Pods-CookieDough-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CookieDough-frameworks.sh"; sourceTree = "<group>"; };
+		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CD7D0FD32626E41FB8ED8838C7DF895D /* Pods-OneSignalNotificationServiceExtension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OneSignalNotificationServiceExtension-dummy.m"; sourceTree = "<group>"; };
+		EFA47360312919B40D1A3046782C8D37 /* ProgressWebViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ProgressWebViewController-umbrella.h"; sourceTree = "<group>"; };
+		F000B39844F342E45E74FB6FFF1FAE4C /* Pods-OneSignalNotificationServiceExtension-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OneSignalNotificationServiceExtension-umbrella.h"; sourceTree = "<group>"; };
+		F9416CE6C4FDD7162D855A755E255031 /* Pods-OneSignalNotificationServiceExtension-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OneSignalNotificationServiceExtension-acknowledgements.plist"; sourceTree = "<group>"; };
+		FBE4AE8CA0AD081ACD8B8D75B519134A /* Pods_OneSignalNotificationServiceExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_OneSignalNotificationServiceExtension.framework; path = "Pods-OneSignalNotificationServiceExtension.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD924DB61728B5F7FA256045D77D0E4E /* Pods-CookieDough.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CookieDough.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		054C10CF7BE0C862EB365BF811F2C467 /* Frameworks */ = {
+		51CE52B687E9E3C9E719ECBD713C5F11 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A23EA11E64A224167FFF4E228C060ECB /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5DAC03AF95705EF2B4D526DDBE49F91C /* Frameworks */ = {
+		CD6CD6199675B4A2ACAD4ACFCE76E98F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C2E4F8C30ADA4FF925B853F80D79957 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5FF8CB45297BB2C95B517059B655D313 /* Frameworks */ = {
+		E6EB8267DC25AFB13D1D64E8E8205939 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D44363405B3DB1EC8B88ED040460F109 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -127,94 +141,47 @@
 			path = "../Target Support Files/OneSignal-iOS11.0";
 			sourceTree = "<group>";
 		};
-		1FF071D102512592BD0B6C733CC44D91 /* Targets Support Files */ = {
+		2894AAECC1ABC87D7AF0FA15979B381B /* ProgressWebViewController */ = {
 			isa = PBXGroup;
 			children = (
-				AB8EEFCC164FE5881CF1D380D59674EA /* Pods-CookieDough */,
-				4B34740DAD1BD5F97D6267C63BC11E2E /* Pods-OneSignalNotificationServiceExtension */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		45093245F1EB7DCE6830A1BB536B8A5D /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				91353419F4F210B71B1CD772122E57E1 /* Media.xcassets */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		485E272FDC94F6A7944FA1AE20DFE1EB /* ProgressWebViewController */ = {
-			isa = PBXGroup;
-			children = (
-				15A182D868B221CB881E8542717947B7 /* Enums.swift */,
-				EDBC319DF8D85DB0A83C5D8D83E3B139 /* ProgressWebViewController.swift */,
-				45093245F1EB7DCE6830A1BB536B8A5D /* Resources */,
-				7AD0F19FE559D690DAD22637FE66E2B0 /* Support Files */,
+				581861DAB1154EC61929F46E74767545 /* Enums.swift */,
+				A383EC2091F9EAB7A0BF9EBAC092D248 /* ProgressWebViewController.swift */,
+				F291A4CC131526487BDC78A7CEF8617D /* Resources */,
+				2BA0D6EB4ADC1D0BD35A4FD28EB6CE15 /* Support Files */,
 			);
 			name = ProgressWebViewController;
 			path = ProgressWebViewController;
 			sourceTree = "<group>";
 		};
-		4B34740DAD1BD5F97D6267C63BC11E2E /* Pods-OneSignalNotificationServiceExtension */ = {
+		2BA0D6EB4ADC1D0BD35A4FD28EB6CE15 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				1AC3574F3C41BA43B18FAAC2A87049AD /* Pods-OneSignalNotificationServiceExtension-acknowledgements.markdown */,
-				25ED6D3C22619B5DF9E8E1AC4D9C7B70 /* Pods-OneSignalNotificationServiceExtension-acknowledgements.plist */,
-				068D896192114F3B2A1A71A8137D0EE3 /* Pods-OneSignalNotificationServiceExtension-dummy.m */,
-				54B1872862305871361D49CE3CFDA631 /* Pods-OneSignalNotificationServiceExtension.debug.xcconfig */,
-				BD298401B4006FFC0EBA0B57BF99135E /* Pods-OneSignalNotificationServiceExtension.release.xcconfig */,
+				73C6AF9C3452ACC1B40BDA3C8E91E75F /* ProgressWebViewController.modulemap */,
+				97BFEDBDBF578A1C619660A74544A8AC /* ProgressWebViewController.xcconfig */,
+				6F2AB3ECE0C3F6E356455693974C1BA9 /* ProgressWebViewController-dummy.m */,
+				5795579A23FE629B7CBE69F14A3CC8FF /* ProgressWebViewController-Info.plist */,
+				9C7C49390E121721890590F136FB5D4C /* ProgressWebViewController-prefix.pch */,
+				EFA47360312919B40D1A3046782C8D37 /* ProgressWebViewController-umbrella.h */,
 			);
-			name = "Pods-OneSignalNotificationServiceExtension";
-			path = "Target Support Files/Pods-OneSignalNotificationServiceExtension";
+			name = "Support Files";
+			path = "../Target Support Files/ProgressWebViewController";
 			sourceTree = "<group>";
 		};
 		56CC7537DB9B79B963D2101BE52F7C0D /* Pods */ = {
 			isa = PBXGroup;
 			children = (
 				D2076A8801B55DC364B53A28EF003BDA /* OneSignal */,
-				485E272FDC94F6A7944FA1AE20DFE1EB /* ProgressWebViewController */,
+				2894AAECC1ABC87D7AF0FA15979B381B /* ProgressWebViewController */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		60322F654312A6B3A9EAAA3F17F2B0FF /* Products */ = {
+		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				F984848D18436FDCFC2BB438620D606E /* libPods-CookieDough.a */,
-				04EB7276985B247EFBDEB18D09385B48 /* libPods-OneSignalNotificationServiceExtension.a */,
-				49FE58ECD4DA9A0264A8B0BD7D4DBAD9 /* libProgressWebViewController.a */,
+				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
 			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		7AD0F19FE559D690DAD22637FE66E2B0 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				3E955D27FD1A782C45D5AD113022B6D6 /* ProgressWebViewController.modulemap */,
-				5913AD460208CBACCF80C5D1A01B4586 /* ProgressWebViewController.xcconfig */,
-				4059889F7E7A35E39AA6F5B6CD94046E /* ProgressWebViewController-dummy.m */,
-				CD5DC6A104D5C9CFF15DB6704134BEF0 /* ProgressWebViewController-prefix.pch */,
-				46EB3139569802FDA4B200E6443F3A59 /* ProgressWebViewController-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/ProgressWebViewController";
-			sourceTree = "<group>";
-		};
-		AB8EEFCC164FE5881CF1D380D59674EA /* Pods-CookieDough */ = {
-			isa = PBXGroup;
-			children = (
-				D844C77C567CBA3A69F0477E1CFB125B /* Pods-CookieDough.modulemap */,
-				B86BE71F10DFEEF7AFB16AEFA31B679F /* Pods-CookieDough-acknowledgements.markdown */,
-				0F98402D3DAF46722C2874604F8465D7 /* Pods-CookieDough-acknowledgements.plist */,
-				CFA4D252AF1A2C23BD9EC268C6526EFF /* Pods-CookieDough-dummy.m */,
-				39A58E74BB83E4456572391ACF898966 /* Pods-CookieDough-resources.sh */,
-				9556477874746ED05402BEAE18E77A4A /* Pods-CookieDough-umbrella.h */,
-				0D29C2563708B231BD4F729CB2142252 /* Pods-CookieDough.debug.xcconfig */,
-				556E92304C78B36B734144B676F27D24 /* Pods-CookieDough.release.xcconfig */,
-			);
-			name = "Pods-CookieDough";
-			path = "Target Support Files/Pods-CookieDough";
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		B4BA36702312C5239D2CF446198AB24A /* Frameworks */ = {
@@ -225,14 +192,24 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		C62E318BC23B28561F79FDF1E4760D76 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2E66158976516F63056E20F3A3900554 /* Pods_CookieDough.framework */,
+				FBE4AE8CA0AD081ACD8B8D75B519134A /* Pods_OneSignalNotificationServiceExtension.framework */,
+				2F20190D53B5D6995B1F86EE16D59056 /* ProgressWebViewController.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				56CC7537DB9B79B963D2101BE52F7C0D /* Pods */,
-				60322F654312A6B3A9EAAA3F17F2B0FF /* Products */,
-				1FF071D102512592BD0B6C733CC44D91 /* Targets Support Files */,
+				C62E318BC23B28561F79FDF1E4760D76 /* Products */,
+				F914178176237370D7F863045FF2241F /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -246,68 +223,121 @@
 			path = OneSignal;
 			sourceTree = "<group>";
 		};
-		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D23B3C7E3C6FF41BD4FCAB78AF5E54D5 /* Pods-CookieDough */ = {
+			isa = PBXGroup;
+			children = (
+				94B79C1A0B6C38C500DBEC706356554A /* Pods-CookieDough.modulemap */,
+				821B9B2552D25DB982EC522F69787B46 /* Pods-CookieDough-acknowledgements.markdown */,
+				985F6954345EE19D9C9496B8836B3A59 /* Pods-CookieDough-acknowledgements.plist */,
+				768928EB390E286EDBA36DDBE35B42F6 /* Pods-CookieDough-dummy.m */,
+				B83A1503249CD13122EA7122879F593B /* Pods-CookieDough-frameworks.sh */,
+				AB26A35A5E5E9F847779DFF878224A49 /* Pods-CookieDough-Info.plist */,
+				630D00D23555F407C74128BB458B660C /* Pods-CookieDough-umbrella.h */,
+				1494B0131CF78238407A4D579B824D16 /* Pods-CookieDough.debug.xcconfig */,
+				FD924DB61728B5F7FA256045D77D0E4E /* Pods-CookieDough.release.xcconfig */,
+			);
+			name = "Pods-CookieDough";
+			path = "Target Support Files/Pods-CookieDough";
+			sourceTree = "<group>";
+		};
+		F291A4CC131526487BDC78A7CEF8617D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				855A8980AB75C5965715471375E1C749 /* Media.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		F502586F4112B4D8D0B26D956CCF6332 /* Pods-OneSignalNotificationServiceExtension */ = {
+			isa = PBXGroup;
+			children = (
+				0B94BD44F27F52560596F9461DE08464 /* Pods-OneSignalNotificationServiceExtension.modulemap */,
+				68D16F73DCB09362800DE165475592A9 /* Pods-OneSignalNotificationServiceExtension-acknowledgements.markdown */,
+				F9416CE6C4FDD7162D855A755E255031 /* Pods-OneSignalNotificationServiceExtension-acknowledgements.plist */,
+				CD7D0FD32626E41FB8ED8838C7DF895D /* Pods-OneSignalNotificationServiceExtension-dummy.m */,
+				4D663B9C25B66560DDB4758AFA0B3C13 /* Pods-OneSignalNotificationServiceExtension-Info.plist */,
+				F000B39844F342E45E74FB6FFF1FAE4C /* Pods-OneSignalNotificationServiceExtension-umbrella.h */,
+				7EE994E59D972E95A39C9F37C3DAAF2D /* Pods-OneSignalNotificationServiceExtension.debug.xcconfig */,
+				2FBA7FD45BF01758ACAEF868523D0819 /* Pods-OneSignalNotificationServiceExtension.release.xcconfig */,
+			);
+			name = "Pods-OneSignalNotificationServiceExtension";
+			path = "Target Support Files/Pods-OneSignalNotificationServiceExtension";
+			sourceTree = "<group>";
+		};
+		F914178176237370D7F863045FF2241F /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D23B3C7E3C6FF41BD4FCAB78AF5E54D5 /* Pods-CookieDough */,
+				F502586F4112B4D8D0B26D956CCF6332 /* Pods-OneSignalNotificationServiceExtension */,
+			);
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		781FB98C8A3CD244E92433659E2D09B7 /* Headers */ = {
+		2C01137173C1EBEF4A97A5A58EA86259 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A0534D9BCB1A3A6205EAFB20DE6F23F3 /* Pods-CookieDough-umbrella.h in Headers */,
+				B1AA8E27B4EA20096EA3FFE5C226084D /* Pods-CookieDough-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D4ACA9358A87B46CE4D033CE1688CF0E /* Headers */ = {
+		4820930C24DA297E40A8458A5E986EB4 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0E570F3FE41BEB4C1A3F50C343A8753 /* ProgressWebViewController-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FE3E6CE59EB6B86CB19596742629A56B /* Headers */ = {
+		D65A46A79A9B9A30C9FA70FE9DD96C6B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B60A9FF7A669F92D04A2100F29E5E8A9 /* ProgressWebViewController-umbrella.h in Headers */,
+				241F7F6BF02117A5B86F2DDAB4546F2A /* Pods-OneSignalNotificationServiceExtension-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		03D39F2469F3A7B3EC126D8801068784 /* Pods-OneSignalNotificationServiceExtension */ = {
+		6B1957ED010A97F1EC455EF927AB8441 /* Pods-OneSignalNotificationServiceExtension */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2E755491A7BABC194FA46609130A6856 /* Build configuration list for PBXNativeTarget "Pods-OneSignalNotificationServiceExtension" */;
+			buildConfigurationList = 6D05C7BC8D8DE6A73CA99C768421B709 /* Build configuration list for PBXNativeTarget "Pods-OneSignalNotificationServiceExtension" */;
 			buildPhases = (
-				D4ACA9358A87B46CE4D033CE1688CF0E /* Headers */,
-				E41A28CBF4E62C4DBDD770546D8FF8E1 /* Sources */,
-				054C10CF7BE0C862EB365BF811F2C467 /* Frameworks */,
+				D65A46A79A9B9A30C9FA70FE9DD96C6B /* Headers */,
+				3E05DEDE498BCABEA585CC4E2B35C1D7 /* Sources */,
+				51CE52B687E9E3C9E719ECBD713C5F11 /* Frameworks */,
+				29849DF2C32FA1DDEE2A2AD08F2A2800 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				58CF9A4A1C0E67F2BE6C6CDBA13BC080 /* PBXTargetDependency */,
+				2DA46AC8D7A3831736A30DAF9EF9A421 /* PBXTargetDependency */,
 			);
 			name = "Pods-OneSignalNotificationServiceExtension";
 			productName = "Pods-OneSignalNotificationServiceExtension";
-			productReference = 04EB7276985B247EFBDEB18D09385B48 /* libPods-OneSignalNotificationServiceExtension.a */;
-			productType = "com.apple.product-type.library.static";
+			productReference = FBE4AE8CA0AD081ACD8B8D75B519134A /* Pods_OneSignalNotificationServiceExtension.framework */;
+			productType = "com.apple.product-type.framework";
 		};
-		3554254DD7BC71D1297DEF7B73019DBE /* ProgressWebViewController */ = {
+		865F4624075067DD01535D4845BEF00A /* ProgressWebViewController */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4B057E889C9BF199D5D982360E162FF9 /* Build configuration list for PBXNativeTarget "ProgressWebViewController" */;
+			buildConfigurationList = 0A417E1EBD4F377DBB1BE5DDC52F5795 /* Build configuration list for PBXNativeTarget "ProgressWebViewController" */;
 			buildPhases = (
-				FE3E6CE59EB6B86CB19596742629A56B /* Headers */,
-				094EB4E21B22837BF3CF37A798205954 /* Sources */,
-				5FF8CB45297BB2C95B517059B655D313 /* Frameworks */,
-				FF234AD27FB30E61EE333C68ED1EF479 /* Copy generated compatibility header */,
+				4820930C24DA297E40A8458A5E986EB4 /* Headers */,
+				2826530B63EBA90B4DEDE4541833144F /* Sources */,
+				E6EB8267DC25AFB13D1D64E8E8205939 /* Frameworks */,
+				75D57FAA41B8417081E48C17CF6DC103 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -315,27 +345,28 @@
 			);
 			name = ProgressWebViewController;
 			productName = ProgressWebViewController;
-			productReference = 49FE58ECD4DA9A0264A8B0BD7D4DBAD9 /* libProgressWebViewController.a */;
-			productType = "com.apple.product-type.library.static";
+			productReference = 2F20190D53B5D6995B1F86EE16D59056 /* ProgressWebViewController.framework */;
+			productType = "com.apple.product-type.framework";
 		};
-		8897C11FE2712F56C44EC7790E8FDF01 /* Pods-CookieDough */ = {
+		A7B3110818F151D2974B7DE9A5E44EA7 /* Pods-CookieDough */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DEB7C956D586744FD0D45EE86E0F3219 /* Build configuration list for PBXNativeTarget "Pods-CookieDough" */;
+			buildConfigurationList = EB33C84C60035764A9D4AD8B6217C480 /* Build configuration list for PBXNativeTarget "Pods-CookieDough" */;
 			buildPhases = (
-				781FB98C8A3CD244E92433659E2D09B7 /* Headers */,
-				D9F9809DE7A1E37629B142D5B75073CD /* Sources */,
-				5DAC03AF95705EF2B4D526DDBE49F91C /* Frameworks */,
+				2C01137173C1EBEF4A97A5A58EA86259 /* Headers */,
+				FF0EFF1B7526FEBB02E157C50A38E31F /* Sources */,
+				CD6CD6199675B4A2ACAD4ACFCE76E98F /* Frameworks */,
+				047D678C41C3A15E94034076949B0BD0 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				2F44E927EB0AE248A188554FCE5939E9 /* PBXTargetDependency */,
-				FB4DBA536EABC0EDFFE387079DC4CB1E /* PBXTargetDependency */,
+				550FE712FD3AFD85F08A1537988F4BF1 /* PBXTargetDependency */,
+				A66979FDBF865F3E98C4760F647F4A50 /* PBXTargetDependency */,
 			);
 			name = "Pods-CookieDough";
 			productName = "Pods-CookieDough";
-			productReference = F984848D18436FDCFC2BB438620D606E /* libPods-CookieDough.a */;
-			productType = "com.apple.product-type.library.static";
+			productReference = 2E66158976516F63056E20F3A3900554 /* Pods_CookieDough.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
@@ -354,132 +385,138 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 60322F654312A6B3A9EAAA3F17F2B0FF /* Products */;
+			productRefGroup = C62E318BC23B28561F79FDF1E4760D76 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				5894ED842D814C0040822DBDD1D53FC9 /* OneSignal-iOS11.0 */,
 				FAEC05ABF71F3F43027EE756A42919F8 /* OneSignal-iOS12.2 */,
-				8897C11FE2712F56C44EC7790E8FDF01 /* Pods-CookieDough */,
-				03D39F2469F3A7B3EC126D8801068784 /* Pods-OneSignalNotificationServiceExtension */,
-				3554254DD7BC71D1297DEF7B73019DBE /* ProgressWebViewController */,
+				A7B3110818F151D2974B7DE9A5E44EA7 /* Pods-CookieDough */,
+				6B1957ED010A97F1EC455EF927AB8441 /* Pods-OneSignalNotificationServiceExtension */,
+				865F4624075067DD01535D4845BEF00A /* ProgressWebViewController */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		FF234AD27FB30E61EE333C68ED1EF479 /* Copy generated compatibility header */ = {
-			isa = PBXShellScriptBuildPhase;
+/* Begin PBXResourcesBuildPhase section */
+		047D678C41C3A15E94034076949B0BD0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h",
-				"${PODS_ROOT}/Headers/Public/ProgressWebViewController/ProgressWebViewController.modulemap",
-				"${PODS_ROOT}/Headers/Public/ProgressWebViewController/ProgressWebViewController-umbrella.h",
-			);
-			name = "Copy generated compatibility header";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap",
-				"${BUILT_PRODUCTS_DIR}/ProgressWebViewController-umbrella.h",
-				"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h",
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29849DF2C32FA1DDEE2A2AD08F2A2800 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/ProgressWebViewController/ProgressWebViewController.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/ProgressWebViewController/ProgressWebViewController-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
 		};
-/* End PBXShellScriptBuildPhase section */
+		75D57FAA41B8417081E48C17CF6DC103 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFE2B64DD966E67336EE30E1FAEC73E1 /* Media.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		094EB4E21B22837BF3CF37A798205954 /* Sources */ = {
+		2826530B63EBA90B4DEDE4541833144F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				42D66EC41F1E0C393DF022FE2602DF2D /* Enums.swift in Sources */,
-				80FA323208397A1AB8D2568945443B13 /* ProgressWebViewController-dummy.m in Sources */,
-				AA4395DDCEE57C406C08D7F78278C579 /* ProgressWebViewController.swift in Sources */,
+				8CBFE484D2C309124AE98CF3B1AC9DEB /* Enums.swift in Sources */,
+				B358187F8460174D46D7C3C8A532EF08 /* ProgressWebViewController-dummy.m in Sources */,
+				D57E24286C8EFC26478151E574F5B87E /* ProgressWebViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D9F9809DE7A1E37629B142D5B75073CD /* Sources */ = {
+		3E05DEDE498BCABEA585CC4E2B35C1D7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8CA16484D35210303EBB7ADF3A4A79C0 /* Pods-CookieDough-dummy.m in Sources */,
+				65E57A9678A3430092CB9FEF886A6060 /* Pods-OneSignalNotificationServiceExtension-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E41A28CBF4E62C4DBDD770546D8FF8E1 /* Sources */ = {
+		FF0EFF1B7526FEBB02E157C50A38E31F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6BCB629E27F8766EAEFEDD292CD65636 /* Pods-OneSignalNotificationServiceExtension-dummy.m in Sources */,
+				98332015F6584F278062F46DBDB14065 /* Pods-CookieDough-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		2F44E927EB0AE248A188554FCE5939E9 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "OneSignal-iOS11.0";
-			target = 5894ED842D814C0040822DBDD1D53FC9 /* OneSignal-iOS11.0 */;
-			targetProxy = E994D49CBAC00C8246DC3E2F2F699F46 /* PBXContainerItemProxy */;
-		};
-		58CF9A4A1C0E67F2BE6C6CDBA13BC080 /* PBXTargetDependency */ = {
+		2DA46AC8D7A3831736A30DAF9EF9A421 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "OneSignal-iOS12.2";
 			target = FAEC05ABF71F3F43027EE756A42919F8 /* OneSignal-iOS12.2 */;
-			targetProxy = 0F9218DB37C34ED7C8BD8025CB0EE21B /* PBXContainerItemProxy */;
+			targetProxy = DC8246694A8D7B5B7CCB5E9D4DBAAB48 /* PBXContainerItemProxy */;
 		};
-		FB4DBA536EABC0EDFFE387079DC4CB1E /* PBXTargetDependency */ = {
+		550FE712FD3AFD85F08A1537988F4BF1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "OneSignal-iOS11.0";
+			target = 5894ED842D814C0040822DBDD1D53FC9 /* OneSignal-iOS11.0 */;
+			targetProxy = 00DB511DB069620FE4F61D98505C5C40 /* PBXContainerItemProxy */;
+		};
+		A66979FDBF865F3E98C4760F647F4A50 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ProgressWebViewController;
-			target = 3554254DD7BC71D1297DEF7B73019DBE /* ProgressWebViewController */;
-			targetProxy = EADEE37F479105B81F26A6C9D2ECDADC /* PBXContainerItemProxy */;
+			target = 865F4624075067DD01535D4845BEF00A /* ProgressWebViewController */;
+			targetProxy = 3A88FD9493590EDEB16A7327352B7F7A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0770C93BF9BCA3CBAFB4FCDC8E52F1A8 /* Release */ = {
+		0D50F4DBD85342427FEF35CD88EC8EEA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5913AD460208CBACCF80C5D1A01B4586 /* ProgressWebViewController.xcconfig */;
+			baseConfigurationReference = 97BFEDBDBF578A1C619660A74544A8AC /* ProgressWebViewController.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GCC_PREFIX_HEADER = "Target Support Files/ProgressWebViewController/ProgressWebViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ProgressWebViewController/ProgressWebViewController-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				MODULEMAP_FILE = Headers/Public/ProgressWebViewController/ProgressWebViewController.modulemap;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ProgressWebViewController/ProgressWebViewController.modulemap";
 				PRODUCT_MODULE_NAME = ProgressWebViewController;
 				PRODUCT_NAME = ProgressWebViewController;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		22B19381CD7D8A99EA4ACF53FD23C6C6 /* Release */ = {
+		17BC79DABDBF336A85E8C1804BE7C27A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8C76A2731326221F9D20C36C541B2174 /* OneSignal-iOS12.2.xcconfig */;
+			baseConfigurationReference = 595D8E8ECE1D14116E1622EEA7B88F88 /* OneSignal-iOS11.0.xcconfig */;
 			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -490,88 +527,79 @@
 			};
 			name = Release;
 		};
-		2AE747D917000DCEF5D95F4565F7290C /* Debug */ = {
+		239A6933854DC3C9F1E7388F4EFC9E99 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 595D8E8ECE1D14116E1622EEA7B88F88 /* OneSignal-iOS11.0.xcconfig */;
+			baseConfigurationReference = 97BFEDBDBF578A1C619660A74544A8AC /* ProgressWebViewController.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		2DD2AF916D89123C6F5059D0DABECD6A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0D29C2563708B231BD4F729CB2142252 /* Pods-CookieDough.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ProgressWebViewController/ProgressWebViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ProgressWebViewController/ProgressWebViewController-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ProgressWebViewController/ProgressWebViewController.modulemap";
+				PRODUCT_MODULE_NAME = ProgressWebViewController;
+				PRODUCT_NAME = ProgressWebViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		42EEE5749C55BBC06151ED1D99F2C838 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7EE994E59D972E95A39C9F37C3DAAF2D /* Pods-OneSignalNotificationServiceExtension.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-OneSignalNotificationServiceExtension/Pods-OneSignalNotificationServiceExtension-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-CookieDough/Pods-CookieDough.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-OneSignalNotificationServiceExtension/Pods-OneSignalNotificationServiceExtension.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		39A17CC057EED78EB80D0229A113D1FE /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5913AD460208CBACCF80C5D1A01B4586 /* ProgressWebViewController.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/ProgressWebViewController/ProgressWebViewController-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				MODULEMAP_FILE = Headers/Public/ProgressWebViewController/ProgressWebViewController.modulemap;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = ProgressWebViewController;
-				PRODUCT_NAME = ProgressWebViewController;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		49023E0C1DA036A460A8B931F52D671C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 595D8E8ECE1D14116E1622EEA7B88F88 /* OneSignal-iOS11.0.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
 		};
 		4CE281642D6EE9FAB113046B4B6328A0 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -630,6 +658,24 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		66930336E32EE33B6AEAD5E6E0E13366 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C76A2731326221F9D20C36C541B2174 /* OneSignal-iOS12.2.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
@@ -697,39 +743,92 @@
 			};
 			name = Debug;
 		};
-		7CF44E15BDFD829EFF2B75050B5D9906 /* Release */ = {
+		8A89A54B68DB90CBACA62062D305BE98 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 556E92304C78B36B734144B676F27D24 /* Pods-CookieDough.release.xcconfig */;
+			baseConfigurationReference = FD924DB61728B5F7FA256045D77D0E4E /* Pods-CookieDough.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CookieDough/Pods-CookieDough-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-CookieDough/Pods-CookieDough.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		AA05A08CA2FC616307CD76698CD805B5 /* Debug */ = {
+		A280CC11891B9D5FBAC04D4352A49FAF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8C76A2731326221F9D20C36C541B2174 /* OneSignal-iOS12.2.xcconfig */;
+			baseConfigurationReference = 2FBA7FD45BF01758ACAEF868523D0819 /* Pods-OneSignalNotificationServiceExtension.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				APPLICATION_EXTENSION_API_ONLY = YES;
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-OneSignalNotificationServiceExtension/Pods-OneSignalNotificationServiceExtension-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OneSignalNotificationServiceExtension/Pods-OneSignalNotificationServiceExtension.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A7548D286D7427B662731E33E0212BA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 595D8E8ECE1D14116E1622EEA7B88F88 /* OneSignal-iOS11.0.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -739,49 +838,57 @@
 			};
 			name = Debug;
 		};
-		CD3BDFD0CEC84511EC9D6EF58B89F4BB /* Release */ = {
+		B67A003445EB821DE4535CED4B8BD3D5 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BD298401B4006FFC0EBA0B57BF99135E /* Pods-OneSignalNotificationServiceExtension.release.xcconfig */;
+			baseConfigurationReference = 1494B0131CF78238407A4D579B824D16 /* Pods-CookieDough.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				APPLICATION_EXTENSION_API_ONLY = YES;
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CookieDough/Pods-CookieDough-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CookieDough/Pods-CookieDough.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
-		D9627FBAB1A5417CDA68F5C7AB6FC981 /* Debug */ = {
+		D7C12DF8E24B615E024B763C4D92C1EB /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 54B1872862305871361D49CE3CFDA631 /* Pods-OneSignalNotificationServiceExtension.debug.xcconfig */;
+			baseConfigurationReference = 8C76A2731326221F9D20C36C541B2174 /* OneSignal-iOS12.2.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				APPLICATION_EXTENSION_API_ONLY = YES;
-				CLANG_ENABLE_OBJC_WEAK = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -789,20 +896,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0CC1D3680DA55422286351A3C6974F78 /* Build configuration list for PBXAggregateTarget "OneSignal-iOS11.0" */ = {
+		0A417E1EBD4F377DBB1BE5DDC52F5795 /* Build configuration list for PBXNativeTarget "ProgressWebViewController" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2AE747D917000DCEF5D95F4565F7290C /* Debug */,
-				49023E0C1DA036A460A8B931F52D671C /* Release */,
+				239A6933854DC3C9F1E7388F4EFC9E99 /* Debug */,
+				0D50F4DBD85342427FEF35CD88EC8EEA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2E755491A7BABC194FA46609130A6856 /* Build configuration list for PBXNativeTarget "Pods-OneSignalNotificationServiceExtension" */ = {
+		0CC1D3680DA55422286351A3C6974F78 /* Build configuration list for PBXAggregateTarget "OneSignal-iOS11.0" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D9627FBAB1A5417CDA68F5C7AB6FC981 /* Debug */,
-				CD3BDFD0CEC84511EC9D6EF58B89F4BB /* Release */,
+				A7548D286D7427B662731E33E0212BA6 /* Debug */,
+				17BC79DABDBF336A85E8C1804BE7C27A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -816,11 +923,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4B057E889C9BF199D5D982360E162FF9 /* Build configuration list for PBXNativeTarget "ProgressWebViewController" */ = {
+		6D05C7BC8D8DE6A73CA99C768421B709 /* Build configuration list for PBXNativeTarget "Pods-OneSignalNotificationServiceExtension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				39A17CC057EED78EB80D0229A113D1FE /* Debug */,
-				0770C93BF9BCA3CBAFB4FCDC8E52F1A8 /* Release */,
+				42EEE5749C55BBC06151ED1D99F2C838 /* Debug */,
+				A280CC11891B9D5FBAC04D4352A49FAF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -828,17 +935,17 @@
 		8E59D664A34BB2DABD37FBF15CF92E4F /* Build configuration list for PBXAggregateTarget "OneSignal-iOS12.2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AA05A08CA2FC616307CD76698CD805B5 /* Debug */,
-				22B19381CD7D8A99EA4ACF53FD23C6C6 /* Release */,
+				D7C12DF8E24B615E024B763C4D92C1EB /* Debug */,
+				66930336E32EE33B6AEAD5E6E0E13366 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DEB7C956D586744FD0D45EE86E0F3219 /* Build configuration list for PBXNativeTarget "Pods-CookieDough" */ = {
+		EB33C84C60035764A9D4AD8B6217C480 /* Build configuration list for PBXNativeTarget "Pods-CookieDough" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2DD2AF916D89123C6F5059D0DABECD6A /* Debug */,
-				7CF44E15BDFD829EFF2B75050B5D9906 /* Release */,
+				B67A003445EB821DE4535CED4B8BD3D5 /* Debug */,
+				8A89A54B68DB90CBACA62062D305BE98 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

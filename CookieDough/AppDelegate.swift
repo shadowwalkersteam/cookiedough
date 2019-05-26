@@ -30,7 +30,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 //            dataArray.append(dataHandler)
             
             let placeData = UserDefaults.standard.data(forKey: "places")
-            var placeArray = try! JSONDecoder().decode([NotificationHandler].self, from: placeData!)
+            var placeArray = [NotificationHandler]()
+            if (placeData != nil) {
+                placeArray = try! JSONDecoder().decode([NotificationHandler].self, from: placeData!)
+            }
             
             if (placeArray != nil && placeArray.count > 0) {
                 placeArray.append(dataHandler)
