@@ -28,14 +28,11 @@ class MenuViewController: UIViewController, UITableViewDelegate,UITableViewDataS
         menutableView.delegate = self
         menutableView.dataSource = self
         
-        self.navigationController?.setNavigationBarHidden(false, animated: false)
         menutableView.tableFooterView = UIView()
         menutableView.separatorStyle = .none
-
     
     }
     
-
     func numberOfSections(in tableView: UITableView) -> Int {
         
         return dataArray.count
@@ -112,16 +109,10 @@ class MenuViewController: UIViewController, UITableViewDelegate,UITableViewDataS
         return cell!
     }
     
-    override func viewWillAppear(_ animated: Bool) {
-        self.navigationController?.setToolbarHidden(false, animated: false)
-        self.navigationController?.setNavigationBarHidden(false, animated: false)
-    }
-    
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         itemIndex = indexPath.row
-        self.revealViewController().revealToggle(animated: true)
-         performSegue(withIdentifier: "web", sender: self)
+        performSegue(withIdentifier: SWSegueFrontIdentifier, sender: nil)
     }
 
     private func loadURL(progressWebViewController: ProgressWebViewController, url: String, title: String) {
@@ -130,16 +121,19 @@ class MenuViewController: UIViewController, UITableViewDelegate,UITableViewDataS
         progressWebViewController.navigationItem.title = title
         //progressWebViewController.navigationWay = .browser
         //progressWebViewController.pullToRefresh = true
+         progressWebViewController.doneBarButtonItemPosition = .right
+        progressWebViewController.rightNavigaionBarItemTypes = [.done]
         progressWebViewController.toolbarItemTypes = [.back, .forward, .reload, .activity]
         progressWebViewController.url = url
-        progressWebViewController.doneBarButtonItemPosition = .none
         progressWebViewController.headers = ["browser": "in-app browser"]
         progressWebViewController.tintColor = UIColor(named: "colorPrimaryDark")
     
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        let progressWebViewController = segue.destination as? ProgressWebViewController
+        guard let navigationController = segue.destination as? UINavigationController, let progressWebViewController = navigationController.topViewController as? ProgressWebViewController else {
+            return
+        }
         
         switch itemIndex {
         case 1:
@@ -149,10 +143,10 @@ class MenuViewController: UIViewController, UITableViewDelegate,UITableViewDataS
             break
             
         case 2:
-            loadURL(progressWebViewController: progressWebViewController! ,url: "https://cookiedoughboutique.com/event-planning-meeting-request/", title: "Event Planning")
+            loadURL(progressWebViewController: progressWebViewController ,url: "https://cookiedoughboutique.com/event-planning-meeting-request/", title: "Event Planning")
         
         case 3:
-            loadURL(progressWebViewController: progressWebViewController! ,url: "https://cookiedoughboutique.com/nursery-consulting-center/", title: "NCC Checklist")
+            loadURL(progressWebViewController: progressWebViewController ,url: "https://cookiedoughboutique.com/nursery-consulting-center/", title: "NCC Checklist")
             
         default:
             print("Unknown segue \(itemIndex)")

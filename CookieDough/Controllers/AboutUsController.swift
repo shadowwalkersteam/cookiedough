@@ -84,6 +84,12 @@ class AboutUsController: UIViewController {
         imageView.addGestureRecognizer(tapGestureRecognizer)
     }
     
+    
+    @IBAction func backButton(_ sender: UIButton) {
+        print("back button pressed")
+//        dismiss(animated: true, completion: nil)
+    }
+    
     @IBAction func nccCheckList(_ sender: Any) {
         guard let url = URL(string: "https://cookiedoughboutique.com/wp-content/uploads/2017/03/checklist.pdf") else { return }
         UIApplication.shared.open(url)
