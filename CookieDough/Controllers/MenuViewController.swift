@@ -127,9 +127,9 @@ class MenuViewController: UIViewController, UITableViewDelegate,UITableViewDataS
         itemIndex = indexPath.row
         section = indexPath.section
 //        self.revealViewController().revealToggle(animated: true)
-        if (section == 0 && itemIndex == 0) {
-            return
-        }
+//        if (section == 0 && itemIndex == 0) {
+//            return
+//        }
         performSegue(withIdentifier: SWSegueFrontIdentifier, sender: nil)
     }
 
@@ -155,6 +155,12 @@ class MenuViewController: UIViewController, UITableViewDelegate,UITableViewDataS
         
         if (section == 0) {
             switch itemIndex {
+            case 0:
+                let storyBoard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+                let newViewController = storyBoard.instantiateViewController(withIdentifier: "notification") as! NotificationViewController
+                self.present(newViewController, animated: true, completion: nil)
+                break
+                
             case 1:
                 let storyBoard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
                 let newViewController = storyBoard.instantiateViewController(withIdentifier: "aboutus") as! AboutUsController

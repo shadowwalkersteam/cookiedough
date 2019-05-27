@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		412101292294524B0065FE9B /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 412101282294524B0065FE9B /* SWRevealViewController.m */; };
 		4121012B22945C7F0065FE9B /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4121012A22945C7F0065FE9B /* MenuViewController.swift */; };
+		4668AA06229BA7D600B8EF22 /* HeadlineTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4668AA05229BA7D600B8EF22 /* HeadlineTableViewCell.swift */; };
+		4668AA0A229BAC5000B8EF22 /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4668AA09229BAC5000B8EF22 /* NotificationViewController.swift */; };
+		46AA15CA229AEAA300A6CF4D /* ProgressWebViewController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46AA15C9229AEAA300A6CF4D /* ProgressWebViewController.framework */; };
 		46B2A5FE2291483A009B50FA /* AboutUsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B2A5FD2291483A009B50FA /* AboutUsController.swift */; };
 		46BC198B2296F072006CC94E /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46BC198A2296F072006CC94E /* NotificationService.swift */; };
 		46BC198F2296F072006CC94E /* OneSignalNotificationServiceExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 46BC19882296F071006CC94E /* OneSignalNotificationServiceExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
@@ -20,6 +23,7 @@
 		46BDB97B228C679A005697E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46BDB979228C679A005697E5 /* LaunchScreen.storyboard */; };
 		46BDB99F228C7F89005697E5 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46BDB99E228C7F89005697E5 /* Colors.xcassets */; };
 		46BDB9A4228C85A4005697E5 /* Strings.strings in Resources */ = {isa = PBXBuildFile; fileRef = 46BDB9A6228C85A4005697E5 /* Strings.strings */; };
+		46DC99A9229AD16E007135FC /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46DC99A8229AD16E007135FC /* WebKit.framework */; };
 		53A0AE890391DEAF8863E128 /* Pods_OneSignalNotificationServiceExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A48ACEFEC40EB7BA23429D83 /* Pods_OneSignalNotificationServiceExtension.framework */; };
 		921A8E83F4245CAD05E8D477 /* Pods_CookieDough.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAD32F08EBD4C98F6A57B94C /* Pods_CookieDough.framework */; };
 /* End PBXBuildFile section */
@@ -55,6 +59,9 @@
 		412101272294524B0065FE9B /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		412101282294524B0065FE9B /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 		4121012A22945C7F0065FE9B /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		4668AA05229BA7D600B8EF22 /* HeadlineTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadlineTableViewCell.swift; sourceTree = "<group>"; };
+		4668AA09229BAC5000B8EF22 /* NotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
+		46AA15C9229AEAA300A6CF4D /* ProgressWebViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ProgressWebViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		46B2A5FD2291483A009B50FA /* AboutUsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutUsController.swift; sourceTree = "<group>"; };
 		46BC19882296F071006CC94E /* OneSignalNotificationServiceExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = OneSignalNotificationServiceExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		46BC198A2296F072006CC94E /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
@@ -71,6 +78,12 @@
 		46BDB97C228C679A005697E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		46BDB99E228C7F89005697E5 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		46BDB9A5228C85A4005697E5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Strings.strings; sourceTree = "<group>"; };
+		46DC99A8229AD16E007135FC /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		46DC99D3229ADF1D007135FC /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		46DC99D4229ADF1D007135FC /* ProgressWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressWebViewController.swift; sourceTree = "<group>"; };
+		46DC99D5229ADF1D007135FC /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		46DC99D6229ADF1D007135FC /* ProgressWebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProgressWebViewController.h; sourceTree = "<group>"; };
+		46DC99D7229ADF1D007135FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5DCB14C08ECC100C6C7E67FE /* Pods-OneSignalNotificationServiceExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneSignalNotificationServiceExtension.release.xcconfig"; path = "Pods/Target Support Files/Pods-OneSignalNotificationServiceExtension/Pods-OneSignalNotificationServiceExtension.release.xcconfig"; sourceTree = "<group>"; };
 		A48ACEFEC40EB7BA23429D83 /* Pods_OneSignalNotificationServiceExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OneSignalNotificationServiceExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAD32F08EBD4C98F6A57B94C /* Pods_CookieDough.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CookieDough.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -90,6 +103,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				46AA15CA229AEAA300A6CF4D /* ProgressWebViewController.framework in Frameworks */,
+				46DC99A9229AD16E007135FC /* WebKit.framework in Frameworks */,
 				921A8E83F4245CAD05E8D477 /* Pods_CookieDough.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -100,6 +115,9 @@
 		089C257BB3EE9366B8CE00C1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				46AA15C9229AEAA300A6CF4D /* ProgressWebViewController.framework */,
+				46DC99D2229ADF1D007135FC /* ProgressWebViewController */,
+				46DC99A8229AD16E007135FC /* WebKit.framework */,
 				CAD32F08EBD4C98F6A57B94C /* Pods_CookieDough.framework */,
 				A48ACEFEC40EB7BA23429D83 /* Pods_OneSignalNotificationServiceExtension.framework */,
 			);
@@ -170,8 +188,23 @@
 				46BDB972228C6799005697E5 /* ViewController.swift */,
 				46B2A5FD2291483A009B50FA /* AboutUsController.swift */,
 				4121012A22945C7F0065FE9B /* MenuViewController.swift */,
+				4668AA05229BA7D600B8EF22 /* HeadlineTableViewCell.swift */,
+				4668AA09229BAC5000B8EF22 /* NotificationViewController.swift */,
 			);
 			path = Controllers;
+			sourceTree = "<group>";
+		};
+		46DC99D2229ADF1D007135FC /* ProgressWebViewController */ = {
+			isa = PBXGroup;
+			children = (
+				46DC99D3229ADF1D007135FC /* Media.xcassets */,
+				46DC99D4229ADF1D007135FC /* ProgressWebViewController.swift */,
+				46DC99D5229ADF1D007135FC /* Enums.swift */,
+				46DC99D6229ADF1D007135FC /* ProgressWebViewController.h */,
+				46DC99D7229ADF1D007135FC /* Info.plist */,
+			);
+			name = ProgressWebViewController;
+			path = CookieDough/ProgressWebViewController;
 			sourceTree = "<group>";
 		};
 		A7246D750C283BADEA92C101 /* Pods */ = {
@@ -386,7 +419,9 @@
 			files = (
 				46BDB973228C6799005697E5 /* ViewController.swift in Sources */,
 				46BC19982297074A006CC94E /* NotificationHandler.swift in Sources */,
+				4668AA0A229BAC5000B8EF22 /* NotificationViewController.swift in Sources */,
 				4121012B22945C7F0065FE9B /* MenuViewController.swift in Sources */,
+				4668AA06229BA7D600B8EF22 /* HeadlineTableViewCell.swift in Sources */,
 				46B2A5FE2291483A009B50FA /* AboutUsController.swift in Sources */,
 				46BDB971228C6799005697E5 /* AppDelegate.swift in Sources */,
 				412101292294524B0065FE9B /* SWRevealViewController.m in Sources */,

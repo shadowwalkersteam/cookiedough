@@ -2,23 +2,25 @@
 //  NotificationViewController.swift
 //  CookieDough
 //
-//  Created by Zohaib on 5/26/19.
+//  Created by Zohaib on 5/27/19.
 //  Copyright © 2019 Zohaib. All rights reserved.
 //
 
-import Foundation
+import UIKit
 
-
-class HeadlineTableViewCell: UITableViewCell {
-    @IBOutlet weak var title: UILabel!
-    @IBOutlet weak var body: UILabel!
+class NotificationViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
+    @IBOutlet weak var tableView: UITableView!
     
-}
-
-class NotificationViewController:  UITableViewController {
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        tableView.delegate = self
+        tableView.dataSource = self
+        self.navigationController?.setNavigationBarHidden(false, animated: false)
+    }
     
-    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         let placeData = UserDefaults.standard.data(forKey: "places")
+        
         if (placeData != nil) {
             let placeArray = try! JSONDecoder().decode([NotificationHandler].self, from: placeData!)
             return placeArray.count
@@ -28,16 +30,21 @@ class NotificationViewController:  UITableViewController {
         }
     }
     
-    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "LabelCell", for: indexPath) as! HeadlineTableViewCell
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "notificationcell", for: indexPath) as? HeadlineTableViewCell
         
         let placeData = UserDefaults.standard.data(forKey: "places")
-        let placeArray = try! JSONDecoder().decode([NotificationHandler].self, from: placeData!)
-        
-        for place in placeArray {
-            cell.title?.text = place.title
-            cell.body?.text = place.body
+        if (placeData != nil) {
+            let placeArray = try! JSONDecoder().decode([NotificationHandler].self, from: placeData!)
+            cell?.title.text = placeArray[indexPath.row].title
+            cell?.body.text = placeArray[indexPath.row].body
         }
-        return cell
+        return cell!
+    }
+    
+    @IBAction func clearAllNotifications(_ sender: Any) {
+        if let bundleID = Bundle.main.bundleIdentifier {
+            UserDefaults.standard.removePersistentDomain(forName: bundleID)
+        }
     }
 }
